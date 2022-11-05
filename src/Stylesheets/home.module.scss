@@ -1,0 +1,192 @@
+.main-div {
+  .home-banner {
+    background-image: url("../Assets/home-banner.png");
+    height: 695px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .header-texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      .help-text {
+        width: 222px;
+        height: 17px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+
+        color: #0de3d6;
+      }
+      .launch-text {
+        width: 650px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 120%;
+        /* or 58px */
+
+        color: #ffffff;
+      }
+      .launch-sub-text {
+        width: 500px;
+
+        font-style: normal;
+        font-weight: 200;
+        line-height: 120%;
+        font-size: 18px;
+        color: #ffffff;
+      }
+      .apply-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .apply-now-btn {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 12px 36px;
+          gap: 10px;
+
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 19px;
+          height: 37px;
+          color: black;
+          background: #ffffff;
+          border-radius: 28px;
+        }
+        .hire-students {
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
+          margin-left: 10px;
+          letter-spacing: 2px;
+          text-decoration-line: underline;
+
+          color: #ffffff;
+        }
+      }
+    }
+    .header-images {
+      .daily-task {
+        position: absolute;
+        width: 265px;
+        height: 72px;
+        left: 1200px;
+        top: 182px;
+      }
+      .guy-with-laptop {
+        position: absolute;
+        width: 290px;
+        height: 347px;
+        left: 1239px;
+        top: 218px;
+
+        border-radius: 30px;
+      }
+      .live {
+        position: absolute;
+        width: 314px;
+        height: 136px;
+        left: 1332px;
+        top: 497px;
+      }
+    }
+  }
+  .who-we-serve-section {
+    .header-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .heading {
+        width: 952px;
+        height: 45px;
+
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: -4px;
+        text-transform: capitalize;
+
+        color: #212121;
+      }
+
+      .sub-heading {
+        width: 378px;
+        height: 23px;
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+
+        /* systemGrey/600 */
+
+        color: #757575;
+      }
+    }
+    .options-section {
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+      gap: 6px;
+      align-items: center;
+      justify-content: center;
+
+      height: 40px;
+
+      .option {
+        padding: 22px 45px;
+        gap: 10px;
+
+        width: 162px;
+        height: 40px;
+
+        background: #f2f2f2;
+        border-radius: 38px;
+
+        /* Inside auto layout */
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+        color: #646464;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        &.selected {
+          background: #4285f3;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
