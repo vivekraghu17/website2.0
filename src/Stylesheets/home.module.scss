@@ -58,7 +58,7 @@
           font-weight: 800;
           font-size: 16px;
           line-height: 19px;
-          height: 37px;
+
           color: black;
           background: #ffffff;
           border-radius: 28px;
@@ -104,6 +104,9 @@
     }
   }
   .who-we-serve-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
     .header-section {
       display: flex;
       flex-direction: column;
@@ -152,7 +155,7 @@
       gap: 6px;
       align-items: center;
       justify-content: center;
-
+      margin-top: 80px;
       height: 40px;
 
       .option {
@@ -185,6 +188,301 @@
         &.selected {
           background: #4285f3;
           color: #ffffff;
+        }
+      }
+    }
+    .learn-more-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .learn-more-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 12px 36px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 57px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 33px;
+        /* identical to box height, or 183% */
+
+        letter-spacing: 2px;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        background: linear-gradient(0deg, #fac30f, #fac30f),
+          linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 28px;
+      }
+    }
+  }
+  .candidate-review-section {
+    margin-top: 50px;
+    background: #4285f4;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    .header-wrapper {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      .heading {
+        width: 419px;
+        height: 45px;
+
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        text-transform: capitalize;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+    .button-wrapper {
+      display: flex;
+      flex-direction: row;
+      margin-right: 30px;
+      justify-content: flex-end;
+      .previous {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 13px 14px;
+        gap: 10px;
+
+        width: 42px;
+        height: 43px;
+
+        background: #fac30f;
+        border-radius: 5px;
+        margin-right: 20px;
+      }
+      .next {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 13px 14px;
+        gap: 10px;
+
+        width: 42px;
+        height: 43px;
+
+        background: #fac30f;
+        border-radius: 5px;
+      }
+    }
+
+    .review-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      margin-top: 50px;
+      .card {
+        box-sizing: border-box;
+        margin-left: 20px;
+        left: 0%;
+        right: 0%;
+        top: 12.79%;
+        bottom: 0%;
+        height: 300px;
+        min-width: 400px;
+        background: #ffffff;
+        border: 1px solid #d8d8d8;
+        border-radius: 12px;
+      }
+      .review {
+        left: 6.15%;
+        right: 6.15%;
+        top: 28.85%;
+        bottom: 42.62%;
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 180%;
+        /* or 29px */
+
+        letter-spacing: 0.15px;
+
+        color: #314150;
+      }
+      .username {
+        margin-top: 50px;
+        left: 6.15%;
+        right: 61.54%;
+        top: 73.11%;
+        bottom: 20.66%;
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        color: #314150;
+      }
+      .designation {
+        margin-top: 20px;
+        left: 6.15%;
+        right: 64.87%;
+        top: 82.62%;
+        bottom: 11.15%;
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        color: #646464;
+      }
+    }
+  }
+  .bottom-section {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #dfe7f6;
+    .frequently-asked-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .heading {
+        width: 770px;
+        height: 80px;
+        left: 298px;
+        top: 2796px;
+
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 80px;
+        /* identical to box height, or 222% */
+
+        text-align: center;
+        letter-spacing: -0.04em;
+
+        color: #111111;
+      }
+      .sub-heading {
+        width: 964px;
+        height: 68px;
+        left: 201px;
+        top: 2874px;
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 170%;
+        /* or 34px */
+
+        text-align: center;
+
+        color: #757575;
+      }
+      .accordion-wrapper {
+        .accordion {
+          display: flex;
+          flex-direction: column;
+          .item {
+            height: max-content;
+            left: 0%;
+            right: 0%;
+            top: 0px;
+            margin-top: 20px;
+            /* Solid / White - FEFEFE */
+            cursor: pointer;
+            background: #fefefe;
+            border: 1px solid #f5f5f5;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            .title {
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 23px;
+
+              color: #314150;
+              display: flex;
+              /* Inside auto layout */
+              justify-content: space-between;
+              flex: none;
+              order: 0;
+              flex-grow: 0;
+              height: 70px;
+            }
+            .content {
+              height: 154px;
+              left: 4.85%;
+              right: 14.74%;
+              top: 66px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 170%;
+              /* or 27px */
+              max-height: 0;
+              overflow: hidden;
+              transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+              color: #6f6d71;
+            }
+            .content-show {
+              height: 154px;
+              left: 4.85%;
+              right: 14.74%;
+              top: 66px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 170%;
+              /* or 27px */
+              max-height: 9999;
+              transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+              color: #6f6d71;
+            }
+          }
         }
       }
     }

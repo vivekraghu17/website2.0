@@ -10,23 +10,18 @@ const headerMenu = [
     route: "",
   },
   {
-    key: "about-us",
-    label: "About Us",
+    key: "companies",
+    label: "Companies",
     route: "",
   },
   {
-    key: "blogs",
-    label: "Blogs",
+    key: "bootcamps",
+    label: "Bootcamps",
     route: "",
   },
   {
-    key: "careers",
-    label: "Careers",
-    route: "",
-  },
-  {
-    key: "solutions",
-    label: "Solutions",
+    key: "candidate",
+    label: "Candidate",
     route: "",
   },
 ];
