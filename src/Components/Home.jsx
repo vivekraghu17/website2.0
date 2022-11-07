@@ -12,6 +12,8 @@ import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import Footer from "./Footer";
+import EmployerOption from "./Reusables/EmployerOption";
+import BootcampOption from "./Reusables/BootcampOption";
 const optionView = [
   {
     key: "employer",
@@ -115,6 +117,7 @@ const faq = [
 ];
 export default function Home() {
   const [options, setOptions] = React.useState(optionView);
+  const [menu, setMenu] = React.useState("employer");
   const ref = React.useRef(null);
   const [doc, setDocument] = React.useState();
   React.useEffect(() => {
@@ -135,7 +138,9 @@ export default function Home() {
       if (item.key === key) item.selected = true;
       else item.selected = false;
     });
-    console.log(options);
+    console.log(key);
+    setMenu(key);
+
     setOptions([...options]);
   };
   const [selected, setSelected] = React.useState(null);
@@ -204,7 +209,9 @@ export default function Home() {
           })}
         </div>
         <div className={styles["information"]}>
-          <StudentOption />
+          {menu === "employer" && <EmployerOption />}
+          {menu === "bootcamp" && <BootcampOption />}
+          {menu === "students" && <StudentOption />}
         </div>
         <div className={styles["learn-more-section"]}>
           <Button className={styles["learn-more-btn"]}>Learn More</Button>

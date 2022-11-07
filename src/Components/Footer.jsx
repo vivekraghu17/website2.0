@@ -1,6 +1,11 @@
 import React from "react";
 import logo from "../Assets/gritly.png";
 import styles from "../Stylesheets/footer.module.scss";
+import twitter from "../Assets/twitter.png";
+import facebook from "../Assets/facebook.png";
+import instagram from "../Assets/instagram.png";
+import linkedin from "../Assets/linkedin.png";
+
 const footerMenu = [
   {
     key: "companies",
@@ -35,6 +40,12 @@ export default function Footer() {
             </div>
           );
         })}
+        <div className={styles["social-media-wrapper"]}>
+          <img src={facebook} alt="facebook" />
+          <img src={twitter} alt="twitter" />
+          <img src={linkedin} alt="linkedin" />
+          <img src={instagram} alt="instagram" />
+        </div>
       </div>
       <div className={styles["row-2"]}>
         <span>gritly 2022 All right reserved</span>

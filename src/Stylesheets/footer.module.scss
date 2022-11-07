@@ -10,13 +10,13 @@
       color: white;
       align-items: center;
       margin-left: 0px;
-      font-family: "Roboto";
+      //font-family: "Roboto";
       font-style: normal;
       font-weight: 700;
       font-size: 20px;
       line-height: 23px;
       letter-spacing: -0.02em;
-
+      cursor: pointer;
       color: #ffffff;
 
       /* Inside auto layout */
@@ -24,6 +24,14 @@
       flex: none;
       order: 0;
       flex-grow: 0;
+    }
+    .social-media-wrapper {
+      display: flex;
+      flex-direction: row;
+      > img {
+        width: 33px;
+        height: 33px;
+      }
     }
   }
   .row-2 {

@@ -1,11 +1,10 @@
 import "./Stylesheets/App.scss";
-import Home from "./Components/Home";
-
+import Router from "./Components/Routing/Router";
 function App() {
   return (
     <div className="App">
       <div>
-        <Home />
+        <Router />
       </div>
     </div>
   );

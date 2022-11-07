@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../Stylesheets/studentOption.module.scss";
 import ladyWithLaptop from "../../Assets/lady-with-laptop.png";
+import DoneOutlineOutlinedIcon from "@mui/icons-material/DoneOutlineOutlined";
 
 const studentInformation = [
   {
@@ -50,7 +51,11 @@ export default function StudentOption() {
           {studentInformation.map((item, key) => {
             return (
               <div className={styles["info-wrapper"]} key={key}>
-                <div className={styles["pointer"]} />
+                <div className={styles["pointer"]}>
+                  <DoneOutlineOutlinedIcon
+                    sx={{ transform: "rotate(-45deg)", color: "white" }}
+                  />
+                </div>
                 <div className={styles["information"]}>
                   <div className={styles["heading"]}>{item.heading}</div>
                   <div className={styles["body"]}>{item.body}</div>

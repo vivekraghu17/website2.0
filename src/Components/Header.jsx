@@ -2,31 +2,32 @@ import React from "react";
 import Logo from "../Assets/gritly.png";
 import styles from "../Stylesheets/header.module.scss";
 import Button from "@mui/material/Button";
-
+import { useNavigate } from "react-router-dom";
 const headerMenu = [
   {
     key: "home",
     label: "Home",
-    route: "",
+    route: "/",
   },
   {
     key: "companies",
     label: "Companies",
-    route: "",
+    route: "/employer",
   },
   {
     key: "bootcamps",
     label: "Bootcamps",
-    route: "",
+    route: "/bootcamp",
   },
   {
     key: "candidate",
     label: "Candidate",
-    route: "",
+    route: "/candidate",
   },
 ];
 
 export default function Header() {
+  const navigate = useNavigate();
   return (
     <div className={styles["main-div"]}>
       <div className={styles["logo-section"]}>
@@ -35,7 +36,13 @@ export default function Header() {
       <div className={styles["menu-section"]}>
         {headerMenu.map((item, key) => {
           return (
-            <div key={key} className={styles["items"]}>
+            <div
+              key={key}
+              className={styles["items"]}
+              onClick={() => {
+                navigate(`${item.route}`);
+              }}
+            >
               {item.label}
             </div>
           );
