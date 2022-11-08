@@ -4,7 +4,7 @@
   background: #0e1555;
   justify-content: space-evenly;
   align-items: center;
-  height: 100px;
+  height: 69px;
   .logo-section {
     align-items: center;
     .logo-image {
@@ -20,6 +20,11 @@
     .items {
       margin-left: 75px;
       cursor: pointer;
+
+      &.selected {
+        color: #4285f4;
+        border-bottom: 0.1625rem solid #4285f4;
+      }
     }
   }
   .user-options {
@@ -33,6 +38,14 @@
       gap: 10px;
       color: black;
       height: 37px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      /* identical to box height */
+
+      text-align: center;
 
       background: #ffffff;
       border-radius: 28px;

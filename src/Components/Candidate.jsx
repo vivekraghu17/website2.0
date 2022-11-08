@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+
 import styles from "../Stylesheets/candidate.module.scss";
 import ladyWithLaptop from "../Assets/lady-with-laptop.png";
 import guyTeaching from "../Assets/guy-teaching.png";
@@ -49,7 +48,6 @@ const howWeDoIt = [
 export default function Candidate() {
   return (
     <div>
-      <Header />
       <div className={styles["main-div"]}>
         <div className={styles["main-banner"]}>
           <div className={styles["banner-header"]}>For Candidate</div>
@@ -180,7 +178,6 @@ export default function Candidate() {
           <img src={talkToSpecialistBanner} alt="talk to specialist" />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

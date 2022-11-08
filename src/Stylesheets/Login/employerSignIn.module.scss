@@ -1,0 +1,188 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 800px;
+  .form-header-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .heading {
+      //font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 44px;
+      /* identical to box height, or 138% */
+      text-align: left;
+      /* Gray/100 */
+
+      color: #0a0a0a;
+    }
+    .sub-heading {
+      //font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      /* identical to box height, or 188% */
+
+      /* Gray/80 */
+
+      color: #616161;
+    }
+  }
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    .form-control {
+      .input-field {
+        width: 516px;
+        height: 65px;
+      }
+      .label {
+        justify-content: center;
+        text-align: center;
+      }
+      .notched-outline-root {
+        border-radius: 0.625rem;
+      }
+
+      .user-input-field {
+        padding-left: 0.625rem;
+      }
+      .forgot-password-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .remember-me-section {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          /* identical to box height, or 167% */
+
+          /* Gray/70 */
+
+          color: #757575;
+        }
+        .forgot-password {
+          cursor: pointer;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 20px;
+          /* identical to box height, or 167% */
+
+          text-align: right;
+
+          color: #0f175b;
+        }
+      }
+    }
+    .submit-btn {
+      //font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+      margin-top: 40px;
+      text-align: center;
+
+      /* Gray/10 */
+
+      color: #ffffff;
+
+      /* Inside auto layout */
+      height: 60px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      background: #0f175b;
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084),
+        0px 2px 3px rgba(0, 0, 0, 0.168);
+      border-radius: 5px;
+      &.hover {
+        background: #0f175b;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084),
+          0px 2px 3px rgba(0, 0, 0, 0.168);
+        border-radius: 5px;
+      }
+    }
+  }
+  .or-login-with {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    /* Gray/70 */
+
+    color: #757575;
+  }
+  .google-section {
+    .sign-in-with-google {
+      width: 260px;
+      height: 54px;
+      //font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      /* identical to box height, or 150% */
+
+      /* Main */
+
+      color: #004aad;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      &.hover {
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      }
+      .google-logo {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  .sign-up-section {
+    display: flex;
+    flex-direction: row;
+    .dont-have-account {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 20px;
+      /* identical to box height, or 143% */
+
+      /* Gray/70 */
+
+      color: #757575;
+    }
+    .sign-up {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 20px;
+      /* identical to box height, or 167% */
+
+      text-align: right;
+      cursor: pointer;
+      color: #0f175b;
+    }
+  }
+}

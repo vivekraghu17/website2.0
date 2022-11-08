@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../Stylesheets/home.module.scss";
-import Header from "./Header";
+
 import Button from "@mui/material/Button";
 import live from "../Assets/live.png";
 import guywithlaptop from "../Assets/guy-with-laptop.png";
@@ -11,7 +11,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import Footer from "./Footer";
+
 import EmployerOption from "./Reusables/EmployerOption";
 import BootcampOption from "./Reusables/BootcampOption";
 const optionView = [
@@ -152,7 +152,6 @@ export default function Home() {
   };
   return (
     <div className={styles["main-div"]}>
-      <Header />
       <div className={styles["home-banner"]}>
         <div className={styles["header-texts"]}>
           <div className={styles["help-text"]}>We are helping you</div>
@@ -281,7 +280,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
