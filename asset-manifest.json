@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d5d4fac.css",
-    "main.js": "/static/js/main.9a1c4e82.js",
-    "static/js/787.0b8291f7.chunk.js": "/static/js/787.0b8291f7.chunk.js",
-    "static/media/candidatebanner.png": "/static/media/candidatebanner.d8809cab8ad6c1b95724.png",
-    "static/media/bootcampbanner.png": "/static/media/bootcampbanner.b13fa3c0e018d6543426.png",
-    "static/media/employerbanner.png": "/static/media/employerbanner.a524f37df76980e8555a.png",
-    "static/media/lady-with-laptop.png": "/static/media/lady-with-laptop.69c5adffba42354afdc8.png",
-    "static/media/guy-teaching.png": "/static/media/guy-teaching.e9cc492a0e333c9ae581.png",
-    "static/media/guy-with-laptop.png": "/static/media/guy-with-laptop.e9b8d214cda276aad687.png",
-    "static/media/talk-to-specialist-banner.png": "/static/media/talk-to-specialist-banner.2aa95f2362e8b454f233.png",
-    "static/media/google-logo-colors.png": "/static/media/google-logo-colors.eeb1008588b4a8cd8eca.png",
-    "static/media/forgot-password-banner.png": "/static/media/forgot-password-banner.8a7c8d0debe2c587dbac.png",
-    "static/media/live.png": "/static/media/live.ef554ea70a4a0fcb15e3.png",
-    "static/media/home-banner.png": "/static/media/home-banner.1aff5adc811e7a757069.png",
-    "index.html": "/index.html",
-    "main.4d5d4fac.css.map": "/static/css/main.4d5d4fac.css.map",
-    "main.9a1c4e82.js.map": "/static/js/main.9a1c4e82.js.map",
-    "787.0b8291f7.chunk.js.map": "/static/js/787.0b8291f7.chunk.js.map"
+    "main.css": "/website2.0/static/css/main.a4ac1718.css",
+    "main.js": "/website2.0/static/js/main.4efa0b9a.js",
+    "static/js/787.0b8291f7.chunk.js": "/website2.0/static/js/787.0b8291f7.chunk.js",
+    "static/media/candidatebanner.png": "/website2.0/static/media/candidatebanner.d8809cab8ad6c1b95724.png",
+    "static/media/bootcampbanner.png": "/website2.0/static/media/bootcampbanner.b13fa3c0e018d6543426.png",
+    "static/media/employerbanner.png": "/website2.0/static/media/employerbanner.a524f37df76980e8555a.png",
+    "static/media/lady-with-laptop.png": "/website2.0/static/media/lady-with-laptop.69c5adffba42354afdc8.png",
+    "static/media/guy-teaching.png": "/website2.0/static/media/guy-teaching.e9cc492a0e333c9ae581.png",
+    "static/media/guy-with-laptop.png": "/website2.0/static/media/guy-with-laptop.e9b8d214cda276aad687.png",
+    "static/media/talk-to-specialist-banner.png": "/website2.0/static/media/talk-to-specialist-banner.2aa95f2362e8b454f233.png",
+    "static/media/google-logo-colors.png": "/website2.0/static/media/google-logo-colors.eeb1008588b4a8cd8eca.png",
+    "static/media/forgot-password-banner.png": "/website2.0/static/media/forgot-password-banner.8a7c8d0debe2c587dbac.png",
+    "static/media/live.png": "/website2.0/static/media/live.ef554ea70a4a0fcb15e3.png",
+    "static/media/home-banner.png": "/website2.0/static/media/home-banner.1aff5adc811e7a757069.png",
+    "index.html": "/website2.0/index.html",
+    "main.a4ac1718.css.map": "/website2.0/static/css/main.a4ac1718.css.map",
+    "main.4efa0b9a.js.map": "/website2.0/static/js/main.4efa0b9a.js.map",
+    "787.0b8291f7.chunk.js.map": "/website2.0/static/js/787.0b8291f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d5d4fac.css",
-    "static/js/main.9a1c4e82.js"
+    "static/css/main.a4ac1718.css",
+    "static/js/main.4efa0b9a.js"
   ]
 }
