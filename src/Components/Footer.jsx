@@ -5,37 +5,44 @@ import twitter from "../Assets/twitter.png";
 import facebook from "../Assets/facebook.png";
 import instagram from "../Assets/instagram.png";
 import linkedin from "../Assets/linkedin.png";
-
+import { useNavigate } from "react-router-dom";
 const footerMenu = [
   {
     key: "companies",
     label: "Companies",
-    route: "",
+    route: "/employer",
   },
   {
     key: "bootcamp",
     label: "Bootcamps",
-    route: "",
+    route: "/bootcamp",
   },
   {
     key: "candidates",
     label: "Candidates",
-    route: "",
+    route: "/candidate",
   },
   {
     key: "contact",
     label: "Contact",
-    route: "",
+    route: "/contactus",
   },
 ];
 export default function Footer() {
+  const navigate = useNavigate();
   return (
     <div className={styles["main-div"]}>
       <div className={styles["row-1"]}>
         <img src={logo} alt="gritlylogo" />
         {footerMenu.map((item, key) => {
           return (
-            <div key={key} className={styles["items"]}>
+            <div
+              key={key}
+              className={styles["items"]}
+              onClick={() => {
+                navigate(`${item.route}`);
+              }}
+            >
               {item.label}
             </div>
           );

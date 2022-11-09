@@ -110,3 +110,232 @@
     }
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .root-div {
+    .main-div {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      .left-side-images {
+        width: 50%;
+        .blue-background {
+          width: 486px;
+          height: 342px;
+          left: 0px;
+          top: 1145px;
+
+          background: #4285f4;
+        }
+        .lady-with-laptop {
+          position: absolute;
+          width: 582.18px;
+          height: 509.18px;
+          left: 0.82px;
+          top: 1114px;
+          filter: drop-shadow(0px 67.1144px 109.061px rgba(0, 0, 0, 0.05));
+          border-radius: 10px;
+        }
+      }
+      .right-side-information {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-left: 50px;
+        .info-wrapper {
+          display: flex;
+          flex-direction: row;
+          .pointer {
+            width: 31.13px;
+            height: 31.13px;
+            left: 589.63px;
+            top: 1467px;
+
+            background: #407bff;
+            border-radius: 11px;
+            transform: rotate(46.65deg);
+          }
+          .information {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 10px;
+
+            width: 290px;
+            height: 103px;
+            left: 625px;
+            top: 1155px;
+
+            .heading {
+              width: 290px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 254px;
+              height: 67px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .root-div {
+    .main-div {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      .left-side-images {
+        width: 50%;
+        .blue-background {
+          width: 486px;
+          height: 342px;
+          left: 0px;
+          top: 1145px;
+          display: none;
+          background: #4285f4;
+        }
+        .lady-with-laptop {
+          position: absolute;
+          width: 582.18px;
+          height: 509.18px;
+          left: 39.82px;
+          top: 1114px;
+          filter: drop-shadow(0px 67.1144px 109.061px rgba(0, 0, 0, 0.05));
+          border-radius: 10px;
+          display: none;
+        }
+      }
+      .right-side-information {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0px;
+        .info-wrapper {
+          display: flex;
+          flex-direction: row;
+          .pointer {
+            width: 31.13px;
+            height: 31.13px;
+            left: 589.63px;
+            top: 1467px;
+
+            background: #407bff;
+            border-radius: 11px;
+            transform: rotate(46.65deg);
+          }
+          .information {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 10px;
+
+            width: 290px;
+            height: 103px;
+            left: 625px;
+            top: 1155px;
+
+            .heading {
+              width: 290px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 254px;
+              height: 67px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -65,3 +65,146 @@
     }
   }
 }
+//phone
+@media screen and (max-width: 767px) {
+  .main-div {
+    display: flex;
+    flex-direction: row;
+    background: #0e1555;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 69px;
+    .logo-section {
+      align-items: center;
+      .logo-image {
+        align-items: center;
+        width: 90px;
+      }
+    }
+    .menu-section {
+      display: flex;
+      flex-direction: row;
+      color: white;
+      align-items: center;
+      display: none;
+      .items {
+        margin-left: 10px;
+        cursor: pointer;
+        width: 5px;
+        &.selected {
+          color: #4285f4;
+          border-bottom: 0.1625rem solid #4285f4;
+          width: 20px;
+        }
+      }
+    }
+    .user-options {
+      display: flex;
+      flex-direction: row;
+      .login-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 36px;
+        gap: 10px;
+        color: black;
+        height: 37px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+        width: 50px;
+        text-align: center;
+
+        background: #ffffff;
+        border-radius: 28px;
+      }
+      .register-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 36px;
+        gap: 10px;
+        color: white;
+        height: 37px;
+        border-radius: 28px;
+        margin-left: 10px;
+        width: 90px;
+        border-color: white;
+      }
+    }
+  }
+}
+
+//tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-div {
+    display: flex;
+    flex-direction: row;
+    background: #0e1555;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 69px;
+    .logo-section {
+      align-items: center;
+      .logo-image {
+        align-items: center;
+      }
+    }
+    .menu-section {
+      display: flex;
+      flex-direction: row;
+      color: white;
+      align-items: center;
+
+      .items {
+        margin-left: 10px;
+        cursor: pointer;
+
+        &.selected {
+          color: #4285f4;
+          border-bottom: 0.1625rem solid #4285f4;
+        }
+      }
+    }
+    .user-options {
+      display: flex;
+      flex-direction: row;
+      .login-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 36px;
+        gap: 10px;
+        color: black;
+        height: 37px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+        width: 100px;
+        text-align: center;
+
+        background: #ffffff;
+        border-radius: 28px;
+      }
+      .register-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 36px;
+        gap: 10px;
+        color: white;
+        height: 37px;
+        border-radius: 28px;
+        margin-left: 10px;
+        width: 100px;
+        border-color: white;
+      }
+    }
+  }
+}

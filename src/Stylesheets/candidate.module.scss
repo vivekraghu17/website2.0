@@ -76,7 +76,6 @@
       flex-grow: 0;
     }
   }
-
   .benefit-1-section {
     display: flex;
     flex-direction: row;
@@ -636,5 +635,1936 @@
     display: flex;
 
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    .main-banner {
+      background: url("../Assets/candidatebanner.png");
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      .banner-header {
+        width: 441px;
+        height: 68px;
+        left: 115px;
+        top: 184px;
+
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 68px;
+        /* identical to box height, or 106% */
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.04em;
+        text-transform: capitalize;
+
+        color: #212121;
+      }
+      .banner-sub-text {
+        width: 479px;
+        height: 175px;
+        left: 120px;
+        top: 283px;
+        margin-left: 60px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 35px;
+        /* or 194% */
+
+        letter-spacing: 0.5px;
+
+        color: #263238;
+      }
+      .join-today-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 36px;
+        gap: 10px;
+        width: max-content;
+        height: 57px;
+        margin-left: 60px;
+        background: linear-gradient(0deg, #fac30f, #fac30f),
+          linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 28px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 33px;
+        /* identical to box height, or 183% */
+
+        letter-spacing: 2px;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+    .benefit-1-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      .left-side-images {
+        .blue-background {
+          width: 533px;
+          height: 346px;
+          left: 0px;
+          top: 750px;
+          margin-top: 40px;
+          background: #4285f4;
+        }
+        .ladywithlaptop {
+          position: absolute;
+          width: 585px;
+          height: 500px;
+          left: 111px;
+          top: 723px;
+        }
+      }
+      .right-side-information {
+        display: flex;
+        flex-direction: column;
+        margin-left: 359px;
+
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 75%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+    .benefit-2-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      margin-left: 100px;
+      justify-content: space-between;
+      .left-side-information {
+        display: flex;
+        flex-direction: column;
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 50%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+      .right-side-images {
+        .blue-background {
+          width: 548px;
+          height: 369px;
+
+          background: #4285f4;
+        }
+        .guy-teaching {
+          position: absolute;
+          width: 491px;
+          height: 300px;
+          left: 1259px;
+          top: 1260px;
+        }
+      }
+    }
+    .benefit-3-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      .left-side-images {
+        .blue-background {
+          width: 533px;
+          height: 346px;
+          left: 0px;
+          top: 750px;
+          margin-top: 40px;
+          background: #4285f4;
+        }
+        .ladywithlaptop {
+          position: absolute;
+          width: 585px;
+          height: 500px;
+          left: 111px;
+          top: 1563px;
+        }
+      }
+      .right-side-information {
+        display: flex;
+        flex-direction: column;
+        margin-left: 359px;
+
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 75%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+    .how-we-do-it-section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+
+      .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header {
+          width: 219px;
+          height: 45px;
+
+          font-family: "Libre Baskerville";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 45px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: -4px;
+          text-transform: capitalize;
+
+          color: #000000;
+
+          /* Inside auto layout */
+
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+        .sub-heading {
+          width: 751px;
+          height: 68px;
+          left: 288px;
+          top: 2314.24px;
+
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 184%;
+          /* or 33px */
+
+          text-align: center;
+
+          color: #263238;
+        }
+      }
+      .information-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 100px;
+        .left-side-wrapper {
+          .heading {
+            width: 496px;
+            height: 204px;
+            left: 120px;
+            top: 2457px;
+
+            font-family: "Libre Baskerville";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 68px;
+            /* or 170% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.04em;
+            text-transform: capitalize;
+
+            color: #111111;
+          }
+          .sub-heading {
+            width: 493px;
+            height: 120px;
+            left: 120px;
+            top: 2676px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            /* or 188% */
+
+            color: #314150;
+          }
+          .join-today-btn {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 12px 36px;
+            gap: 10px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 15px;
+            line-height: 33px;
+            /* identical to box height, or 183% */
+
+            letter-spacing: 2px;
+
+            color: #ffffff;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            height: 57px;
+
+            background: linear-gradient(0deg, #fac30f, #fac30f),
+              linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 28px;
+          }
+        }
+        .right-side-wrapper {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 50%;
+          margin-left: 200px;
+          .point-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            .heading {
+              height: 23px;
+              left: 56.3%;
+              right: 28.99%;
+              top: 2466px;
+              display: flex;
+              flex-direction: row;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 23px;
+
+              color: #111111;
+              .pointer {
+                height: 33px;
+                left: 52.49%;
+                right: 45.1%;
+                top: 2461px;
+                color: white;
+                background: rgba(22, 199, 154, 0.9);
+                border-radius: 3px;
+              }
+            }
+            .body {
+              height: 56px;
+              left: 52.49%;
+              right: 13.54%;
+              top: 2507px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 28px;
+              /* or 175% */
+
+              /* Medium Dark */
+
+              color: #646464;
+            }
+          }
+        }
+      }
+    }
+    .bottom-section {
+      display: flex;
+
+      justify-content: center;
+    }
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    .main-banner {
+      background: url("../Assets/candidatebanner.png");
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      .banner-header {
+        width: 441px;
+        height: 68px;
+        left: 115px;
+        top: 184px;
+
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 68px;
+        /* identical to box height, or 106% */
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.04em;
+        text-transform: capitalize;
+
+        color: #212121;
+      }
+      .banner-sub-text {
+        width: 479px;
+        height: 175px;
+        left: 120px;
+        top: 283px;
+        margin-left: 60px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 35px;
+        /* or 194% */
+
+        letter-spacing: 0.5px;
+
+        color: #263238;
+      }
+      .join-today-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 36px;
+        gap: 10px;
+        width: max-content;
+        height: 57px;
+        margin-left: 60px;
+        background: linear-gradient(0deg, #fac30f, #fac30f),
+          linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 28px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 33px;
+        /* identical to box height, or 183% */
+
+        letter-spacing: 2px;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+    .benefit-1-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      .left-side-images {
+        .blue-background {
+          width: 278px;
+          height: 254px;
+          left: 0px;
+          top: 750px;
+          margin-top: 40px;
+          background: #4285f4;
+        }
+        .ladywithlaptop {
+          position: absolute;
+          width: 472px;
+          height: 405px;
+          left: -39px;
+          top: 723px;
+        }
+      }
+      .right-side-information {
+        display: flex;
+        flex-direction: column;
+        margin-left: 180px;
+
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 75%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+    .benefit-2-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      margin-left: 25px;
+      justify-content: space-between;
+      .left-side-information {
+        display: flex;
+        flex-direction: column;
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 50%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+      .right-side-images {
+        .blue-background {
+          width: 361px;
+          height: 301px;
+          background: #4285f4;
+        }
+        .guy-teaching {
+          position: absolute;
+          width: 375px;
+          height: 275px;
+          left: 379px;
+          top: 1294px;
+        }
+      }
+    }
+    .benefit-3-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      .left-side-images {
+        .blue-background {
+          width: 278px;
+          height: 254px;
+          left: 0px;
+          top: 750px;
+          margin-top: 40px;
+          background: #4285f4;
+        }
+        .ladywithlaptop {
+          position: absolute;
+          width: 472px;
+          height: 405px;
+          left: -39px;
+          top: 1912px;
+        }
+      }
+      .right-side-information {
+        display: flex;
+        flex-direction: column;
+        margin-left: 180px;
+
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 75%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+    .how-we-do-it-section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+
+      .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header {
+          width: 219px;
+          height: 45px;
+
+          font-family: "Libre Baskerville";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 45px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: -4px;
+          text-transform: capitalize;
+
+          color: #000000;
+
+          /* Inside auto layout */
+
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+        .sub-heading {
+          width: 751px;
+          height: 68px;
+          left: 288px;
+          top: 2314.24px;
+
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 184%;
+          /* or 33px */
+
+          text-align: center;
+
+          color: #263238;
+        }
+      }
+      .information-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0px;
+        .left-side-wrapper {
+          .heading {
+            width: 496px;
+            height: 204px;
+            left: 120px;
+            top: 2457px;
+            text-align: center;
+            font-family: "Libre Baskerville";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 68px;
+            /* or 170% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.04em;
+            text-transform: capitalize;
+
+            color: #111111;
+          }
+          .sub-heading {
+            width: 493px;
+            height: 120px;
+            left: 120px;
+            top: 2676px;
+            text-align: center;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            /* or 188% */
+
+            color: #314150;
+          }
+          .button-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .join-today-btn {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 12px 36px;
+              gap: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 15px;
+              line-height: 33px;
+              /* identical to box height, or 183% */
+              justify-content: center;
+              letter-spacing: 2px;
+
+              color: #ffffff;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              flex-grow: 0;
+              height: 57px;
+
+              background: linear-gradient(0deg, #fac30f, #fac30f),
+                linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+              box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+              border-radius: 28px;
+            }
+          }
+        }
+        .right-side-wrapper {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 50%;
+          margin-left: 200px;
+          display: none;
+          .point-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            .heading {
+              height: 23px;
+              left: 56.3%;
+              right: 28.99%;
+              top: 2466px;
+              display: flex;
+              flex-direction: row;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 23px;
+
+              color: #111111;
+              .pointer {
+                height: 33px;
+                left: 52.49%;
+                right: 45.1%;
+                top: 2461px;
+                color: white;
+                background: rgba(22, 199, 154, 0.9);
+                border-radius: 3px;
+              }
+            }
+            .body {
+              height: 56px;
+              left: 52.49%;
+              right: 13.54%;
+              top: 2507px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 28px;
+              /* or 175% */
+
+              /* Medium Dark */
+
+              color: #646464;
+            }
+          }
+        }
+      }
+    }
+    .bottom-section {
+      display: flex;
+
+      justify-content: center;
+      .specialist-banner {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    .main-banner {
+      background: url("../Assets/candidatebanner.png");
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      .banner-header {
+        width: 441px;
+        height: 68px;
+        left: 115px;
+        top: 184px;
+
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 68px;
+        /* identical to box height, or 106% */
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.04em;
+        text-transform: capitalize;
+
+        color: #212121;
+      }
+      .banner-sub-text {
+        width: 479px;
+        height: 175px;
+        left: 120px;
+        top: 283px;
+        margin-left: 60px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 35px;
+        /* or 194% */
+
+        letter-spacing: 0.5px;
+
+        color: #263238;
+      }
+      .join-today-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px 36px;
+        gap: 10px;
+        width: max-content;
+        height: 57px;
+        margin-left: 60px;
+        background: linear-gradient(0deg, #fac30f, #fac30f),
+          linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 28px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 33px;
+        /* identical to box height, or 183% */
+
+        letter-spacing: 2px;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+    .benefit-1-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      .left-side-images {
+        .blue-background {
+          width: 533px;
+          height: 346px;
+          left: 0px;
+          top: 750px;
+          margin-top: 40px;
+          background: #4285f4;
+        }
+        .ladywithlaptop {
+          position: absolute;
+          width: 585px;
+          height: 500px;
+          left: 111px;
+          top: 723px;
+        }
+      }
+      .right-side-information {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 75%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+    .benefit-2-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      margin-left: 100px;
+      justify-content: space-between;
+      .left-side-information {
+        display: flex;
+        flex-direction: column;
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 50%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+      .right-side-images {
+        .blue-background {
+          width: 548px;
+          height: 369px;
+
+          background: #4285f4;
+        }
+        .guy-teaching {
+          position: absolute;
+          width: 491px;
+          height: 300px;
+          left: 575px;
+          top: 1294px;
+        }
+      }
+    }
+    .benefit-3-section {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      .left-side-images {
+        .blue-background {
+          width: 533px;
+          height: 346px;
+          left: 0px;
+          top: 750px;
+          margin-top: 40px;
+          background: #4285f4;
+        }
+        .ladywithlaptop {
+          position: absolute;
+          width: 585px;
+          height: 500px;
+          left: 111px;
+          top: 1902px;
+        }
+      }
+      .right-side-information {
+        display: flex;
+        flex-direction: column;
+        margin-left: 300px;
+
+        .header-wrapper {
+          .header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 27px;
+            gap: 10px;
+
+            width: 110px;
+            height: 43px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #fbfbfb;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: #4285f4;
+            box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+            border-radius: 10px;
+          }
+        }
+        .information-points-wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 75%;
+          .points {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+            .heading {
+              width: 301.65px;
+              height: 26px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 26px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/900 */
+
+              color: #212121;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 0;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            .body {
+              width: 301.65px;
+              height: 61px;
+              margin-top: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              /* or 150% */
+
+              letter-spacing: 0.2px;
+              text-transform: capitalize;
+
+              /* systemGrey/700 */
+
+              color: #616161;
+
+              /* Inside auto layout */
+
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 1;
+            }
+          }
+        }
+      }
+    }
+    .how-we-do-it-section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+
+      .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .header {
+          width: 219px;
+          height: 45px;
+
+          font-family: "Libre Baskerville";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 45px;
+          /* identical to box height */
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: -4px;
+          text-transform: capitalize;
+
+          color: #000000;
+
+          /* Inside auto layout */
+
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+        }
+        .sub-heading {
+          width: 751px;
+          height: 68px;
+          left: 288px;
+          top: 2314.24px;
+
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 184%;
+          /* or 33px */
+
+          text-align: center;
+
+          color: #263238;
+        }
+      }
+      .information-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 100px;
+        .left-side-wrapper {
+          .heading {
+            width: 496px;
+            height: 204px;
+            left: 120px;
+            top: 2457px;
+
+            font-family: "Libre Baskerville";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 68px;
+            /* or 170% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.04em;
+            text-transform: capitalize;
+
+            color: #111111;
+          }
+          .sub-heading {
+            width: 493px;
+            height: 120px;
+            left: 120px;
+            top: 2676px;
+
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            /* or 188% */
+
+            color: #314150;
+          }
+          .join-today-btn {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 12px 36px;
+            gap: 10px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 15px;
+            line-height: 33px;
+            /* identical to box height, or 183% */
+
+            letter-spacing: 2px;
+
+            color: #ffffff;
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            height: 57px;
+
+            background: linear-gradient(0deg, #fac30f, #fac30f),
+              linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 28px;
+          }
+        }
+        .right-side-wrapper {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 50%;
+          margin-left: 0px;
+          .point-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            .heading {
+              height: 23px;
+              left: 56.3%;
+              right: 28.99%;
+              top: 2466px;
+              display: flex;
+              flex-direction: row;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 23px;
+
+              color: #111111;
+              .pointer {
+                height: 33px;
+                left: 52.49%;
+                right: 45.1%;
+                top: 2461px;
+                color: white;
+                background: rgba(22, 199, 154, 0.9);
+                border-radius: 3px;
+              }
+            }
+            .body {
+              height: 56px;
+              left: 52.49%;
+              right: 13.54%;
+              top: 2507px;
+
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 28px;
+              /* or 175% */
+
+              /* Medium Dark */
+
+              color: #646464;
+            }
+          }
+        }
+      }
+    }
+    .bottom-section {
+      display: flex;
+
+      justify-content: center;
+    }
   }
 }

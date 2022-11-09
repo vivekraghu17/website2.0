@@ -154,7 +154,9 @@ export default function Employer() {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute{" "}
               </div>
-              <Button className={styles["join-today-btn"]}>Join Today</Button>
+              <div className={styles["button-wrapper"]}>
+                <Button className={styles["join-today-btn"]}>Join Today</Button>
+              </div>
             </div>
             <div className={styles["right-side-wrapper"]}>
               {howWeDoIt.map((item, key) => {
@@ -174,7 +176,11 @@ export default function Employer() {
           </div>
         </div>
         <div className={styles["bottom-section"]}>
-          <img src={talkToSpecialistBanner} alt="talk to specialist" />
+          <img
+            src={talkToSpecialistBanner}
+            alt="talk to specialist"
+            className={styles["specialist-banner"]}
+          />
         </div>
       </div>
     </div>

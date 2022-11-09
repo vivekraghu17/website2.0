@@ -55,3 +55,123 @@
     flex-grow: 0;
   }
 }
+@media screen and (max-width: 767px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    background: #0e1555;
+    .row-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .items {
+        color: white;
+        align-items: center;
+        margin-left: 0px;
+        //font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        cursor: pointer;
+        color: #ffffff;
+        display: none;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .social-media-wrapper {
+        display: flex;
+        flex-direction: row;
+        display: none;
+        > img {
+          width: 33px;
+          height: 33px;
+        }
+      }
+    }
+    .row-2 {
+      justify-content: center;
+      color: white;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 130%;
+      /* or 18px */
+
+      letter-spacing: 0.008em;
+
+      color: #ffffff;
+
+      /* Inside auto layout */
+      text-align: center;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 900px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    background: #0e1555;
+    .row-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .items {
+        color: white;
+        align-items: center;
+        margin-left: 0px;
+        //font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        cursor: pointer;
+        color: #ffffff;
+        width: 20px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .social-media-wrapper {
+        display: flex;
+        flex-direction: row;
+        display: none;
+        > img {
+          width: 33px;
+          height: 33px;
+        }
+      }
+    }
+    .row-2 {
+      justify-content: center;
+      color: white;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 130%;
+      /* or 18px */
+
+      letter-spacing: 0.008em;
+
+      color: #ffffff;
+
+      /* Inside auto layout */
+      text-align: center;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}

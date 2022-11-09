@@ -241,7 +241,11 @@ export default function Home() {
         </div>
       </div>
       <div className={styles["bottom-section"]}>
-        <img src={talkToSpecialistBanner} alt="banner" />
+        <img
+          src={talkToSpecialistBanner}
+          alt="banner"
+          className={styles["specialist-banner"]}
+        />
         <div className={styles["frequently-asked-section"]}>
           <div className={styles["heading"]}>Frequently Asked Questions ?</div>
           <div className={styles["sub-heading"]}>
