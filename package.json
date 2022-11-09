@@ -1,7 +1,8 @@
 {
   "name": "website2.0",
   "version": "0.1.0",
-  "homepage": "https://github.com/vivekraghu17/website2.0/",
+  "private": false,
+  "homepage": "https://vivekraghu17.github.io/website2.0/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
