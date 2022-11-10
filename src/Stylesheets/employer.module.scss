@@ -642,14 +642,15 @@
     display: flex;
     flex-direction: column;
     .main-banner {
-      background: url("../Assets/employerbanner.png");
+      background: url("../Assets/employer-mobile.png");
       height: 600px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      align-items: flex-start;
+      align-items: center;
+      width: 100%;
       .banner-header {
-        width: 441px;
+        width: 100%;
         height: 68px;
         left: 115px;
         top: 184px;
@@ -660,30 +661,30 @@
         font-size: 64px;
         line-height: 68px;
         /* identical to box height, or 106% */
-        margin-left: 60px;
+        margin-left: 0px;
         display: flex;
         align-items: center;
         letter-spacing: -0.04em;
         text-transform: capitalize;
-
-        color: #212121;
+        text-align: center;
+        color: white;
       }
       .banner-sub-text {
-        width: 479px;
+        width: 100%;
         height: 175px;
         left: 120px;
         top: 283px;
-        margin-left: 60px;
+        margin-left: 0px;
         font-family: "Roboto";
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 35px;
         /* or 194% */
-
+        text-align: center;
         letter-spacing: 0.5px;
 
-        color: #263238;
+        color: white;
       }
       .join-today-btn {
         display: flex;
@@ -693,7 +694,7 @@
         gap: 10px;
         width: max-content;
         height: 57px;
-        margin-left: 60px;
+        margin-left: 0px;
         background: linear-gradient(0deg, #fac30f, #fac30f),
           linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
@@ -718,8 +719,8 @@
     }
     .benefit-1-section {
       display: flex;
-      flex-direction: row;
-      margin-top: 60px;
+      flex-direction: column;
+      margin-top: 0px;
       .left-side-images {
         .blue-background {
           width: 533px;
@@ -728,19 +729,21 @@
           top: 750px;
           margin-top: 40px;
           background: #4285f4;
+          display: none;
         }
         .ladywithlaptop {
-          position: absolute;
-          width: 585px;
-          height: 500px;
-          left: 111px;
-          top: 723px;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          left: 0%;
+          top: 0%;
         }
       }
       .right-side-information {
         display: flex;
         flex-direction: column;
-        margin-left: 359px;
+        align-items: center;
+        margin-left: 0%;
 
         .header-wrapper {
           .header {
@@ -844,13 +847,15 @@
     }
     .benefit-2-section {
       display: flex;
-      flex-direction: row;
+      flex-direction: column-reverse;
       margin-top: 30px;
-      margin-left: 100px;
+      margin-left: 0px;
       justify-content: space-between;
+      align-items: center;
       .left-side-information {
         display: flex;
         flex-direction: column;
+        align-items: center;
         .header-wrapper {
           .header {
             display: flex;
@@ -858,7 +863,7 @@
             align-items: flex-start;
             padding: 20px 27px;
             gap: 10px;
-
+            margin-top: 100px;
             width: 110px;
             height: 43px;
 
@@ -888,8 +893,10 @@
         .information-points-wrapper {
           display: flex;
           flex-direction: row;
-          flex-wrap: wrap;
-          width: 50%;
+          margin-left: 0%;
+          width: 100%;
+          justify-content: center;
+
           .points {
             display: flex;
             flex-direction: column;
@@ -954,21 +961,22 @@
         .blue-background {
           width: 548px;
           height: 369px;
-
+          display: none;
           background: #4285f4;
         }
         .guy-teaching {
-          position: absolute;
-          width: 491px;
-          height: 300px;
-          left: 1259px;
-          top: 1260px;
+          margin-top: 50px;
+          position: relative;
+          width: 200px;
+          height: 200px;
+          left: 0px;
+          top: 0px;
         }
       }
     }
     .benefit-3-section {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       margin-top: 60px;
       .left-side-images {
         .blue-background {
@@ -978,20 +986,21 @@
           top: 750px;
           margin-top: 40px;
           background: #4285f4;
+          display: none;
         }
         .ladywithlaptop {
-          position: absolute;
-          width: 585px;
-          height: 500px;
-          left: 111px;
-          top: 1563px;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          left: 0px;
+          top: 0px;
         }
       }
       .right-side-information {
         display: flex;
         flex-direction: column;
-        margin-left: 359px;
-
+        margin-left: 0px;
+        align-items: center;
         .header-wrapper {
           .header {
             display: flex;
@@ -1096,22 +1105,24 @@
       display: flex;
       flex-direction: column;
       margin-top: 30px;
-
+      background: #dfe7f6;
+      height: 1000px;
       .header-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         .header {
-          width: 219px;
+          width: 100%;
           height: 45px;
-
+          text-align: center;
           font-family: "Libre Baskerville";
           font-style: normal;
           font-weight: 700;
           font-size: 36px;
           line-height: 45px;
           /* identical to box height */
-
+          justify-content: center;
           display: flex;
           align-items: center;
           text-align: center;
@@ -1127,10 +1138,10 @@
           flex-grow: 0;
         }
         .sub-heading {
-          width: 751px;
+          width: 100%;
           height: 68px;
-          left: 288px;
-          top: 2314.24px;
+          left: 0px;
+          top: 0px;
 
           font-family: "Roboto";
           font-style: normal;
@@ -1146,23 +1157,23 @@
       }
       .information-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        margin-left: 100px;
+        margin-left: 0px;
         .left-side-wrapper {
           .heading {
-            width: 496px;
+            width: 100%;
             height: 204px;
             left: 120px;
             top: 2457px;
-
+            margin-top: 80px;
             font-family: "Libre Baskerville";
             font-style: normal;
             font-weight: 700;
             font-size: 40px;
             line-height: 68px;
             /* or 170% */
-
+            text-align: center;
             display: flex;
             align-items: center;
             letter-spacing: -0.04em;
@@ -1171,11 +1182,11 @@
             color: #111111;
           }
           .sub-heading {
-            width: 493px;
+            width: 100%;
             height: 120px;
             left: 120px;
             top: 2676px;
-
+            text-align: center;
             font-family: "Roboto";
             font-style: normal;
             font-weight: 400;
@@ -1185,43 +1196,47 @@
 
             color: #314150;
           }
-          .join-today-btn {
+          .button-wrapper {
             display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 12px 36px;
-            gap: 10px;
-            font-family: "Roboto";
-            font-style: normal;
-            font-weight: 800;
-            font-size: 15px;
-            line-height: 33px;
-            /* identical to box height, or 183% */
+            justify-content: center;
+            .join-today-btn {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 12px 36px;
+              gap: 10px;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 15px;
+              line-height: 33px;
+              /* identical to box height, or 183% */
 
-            letter-spacing: 2px;
+              letter-spacing: 2px;
 
-            color: #ffffff;
+              color: #ffffff;
 
-            /* Inside auto layout */
+              /* Inside auto layout */
 
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-            height: 57px;
+              flex: none;
+              order: 0;
+              flex-grow: 0;
+              height: 57px;
 
-            background: linear-gradient(0deg, #fac30f, #fac30f),
-              linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-            border-radius: 28px;
+              background: linear-gradient(0deg, #fac30f, #fac30f),
+                linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+              box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+              border-radius: 28px;
+            }
           }
         }
         .right-side-wrapper {
-          margin-top: 40px;
+          margin-top: 20px;
           display: flex;
           flex-direction: column;
           flex-wrap: wrap;
-          width: 50%;
-          margin-left: 200px;
+          width: 100%;
+          margin-left: 0px;
           .point-wrapper {
             display: flex;
             flex-direction: column;
@@ -1273,7 +1288,7 @@
     }
     .bottom-section {
       display: flex;
-
+      display: none;
       justify-content: center;
     }
   }

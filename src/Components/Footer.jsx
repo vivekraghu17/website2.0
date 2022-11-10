@@ -33,7 +33,7 @@ export default function Footer() {
   return (
     <div className={styles["main-div"]}>
       <div className={styles["row-1"]}>
-        <img src={logo} alt="gritlylogo" />
+        <img src={logo} alt="gritlylogo" className={styles["gritly-logo"]} />
         {footerMenu.map((item, key) => {
           return (
             <div

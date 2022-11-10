@@ -112,10 +112,12 @@
 }
 @media only screen and (max-width: 767px) {
   .root-div {
+    width: 100% !important;
     .main-div {
       display: flex;
       flex-direction: row;
       margin-top: 60px;
+      width: 100% !important;
       .left-side-images {
         width: 50%;
         .blue-background {

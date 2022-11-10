@@ -12,6 +12,8 @@ import StudentSignIn from "../Login/StudentSignIn";
 import StudentSignUp from "../Signup/StudentSignUp";
 import BootcampSignUp from "../Signup/BootcampSignUp";
 import EmployerSignUp from "../Signup/EmployerSignUp";
+import NotFound from "../NotFound";
+import ContactUs from "../ContactUs";
 export default function Router() {
   return (
     <BrowserRouter>
@@ -27,6 +29,8 @@ export default function Router() {
         <Route path="/studentsignup" element={<StudentSignUp />} />
         <Route path="/bootcampsignup" element={<BootcampSignUp />} />
         <Route path="/employersignup" element={<EmployerSignUp />} />
+        <Route path="/contactus" element={<ContactUs />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

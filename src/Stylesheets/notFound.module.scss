@@ -1,0 +1,46 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+  .header-banner {
+    width: 100%;
+    height: 165px;
+    left: 1px;
+    top: 79px;
+    display: flex;
+    flex-direction: column;
+    background: #4285f4;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    .header {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
+      letter-spacing: 1.2px;
+      text-transform: capitalize;
+
+      color: #ffffff;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  }
+  .error-banner {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    .error-image {
+      width: 524.75px;
+      height: 391px;
+      left: 421px;
+      top: 392px;
+    }
+  }
+}

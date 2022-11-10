@@ -4,6 +4,7 @@ import styles from "../Stylesheets/header.module.scss";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 import GenericModal from "./Reusables/GenericModal";
+import HeaderMenu from "./Reusables/HeaderMenu";
 const headerMenu = [
   {
     key: "home",
@@ -89,6 +90,9 @@ export default function Header() {
         >
           Register
         </Button>
+      </div>
+      <div className={styles["header-menu"]}>
+        <HeaderMenu />
       </div>
       <GenericModal open={open} handleClose={handleClose} option={option} />
     </div>
