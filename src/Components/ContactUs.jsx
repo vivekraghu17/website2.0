@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../Stylesheets/contactUs.module.scss";
 import contactUsImage from "../Assets/contactusimage.png";
-import { FormControl, InputLabel, TextField } from "@mui/material";
+import { FormControl, TextField } from "@mui/material";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 export default function ContactUs() {
