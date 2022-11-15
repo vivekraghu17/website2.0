@@ -5,11 +5,13 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+
     .header-texts {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+      margin-left: 30px;
       .help-text {
         width: 222px;
         height: 17px;
@@ -78,28 +80,12 @@
       }
     }
     .header-images {
-      .daily-task {
-        position: absolute;
-        width: 265px;
-        height: 72px;
-        left: 1200px;
-        top: 182px;
-      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
       .guy-with-laptop {
-        position: absolute;
-        width: 290px;
-        height: 347px;
-        left: 1239px;
-        top: 218px;
-
-        border-radius: 30px;
-      }
-      .live {
-        position: absolute;
-        width: 314px;
-        height: 136px;
-        left: 1332px;
-        top: 497px;
+        width: 550px;
+        height: 514px;
       }
     }
   }
@@ -122,7 +108,7 @@
         line-height: 45px;
         /* identical to box height */
         text-align: center;
-        letter-spacing: -4px;
+        letter-spacing: 0px;
         text-transform: capitalize;
 
         color: #212121;
@@ -263,6 +249,7 @@
         flex: none;
         order: 0;
         flex-grow: 0;
+        margin: 1.5rem;
       }
     }
     .button-wrapper {
@@ -340,6 +327,7 @@
         letter-spacing: 0.15px;
 
         color: #314150;
+        margin: 1rem;
       }
       .username {
         margin-top: 50px;
@@ -356,6 +344,7 @@
         /* identical to box height */
 
         color: #314150;
+        margin: 1rem;
       }
       .designation {
         margin-top: 20px;
@@ -372,11 +361,12 @@
         /* identical to box height */
 
         color: #646464;
+        margin: 1rem;
       }
     }
   }
   .bottom-section {
-    height: 1200px;
+    height: 1400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -402,6 +392,7 @@
         letter-spacing: -0.04em;
 
         color: #111111;
+        // margin: 1rem;
       }
       .sub-heading {
         width: 964px;
@@ -452,6 +443,7 @@
               order: 0;
               flex-grow: 0;
               height: 70px;
+              margin: 1rem;
             }
             .content {
               height: 154px;
@@ -485,6 +477,7 @@
               max-height: 9999;
               transition: all 0.5s cubic-bezier(0, 1, 0, 1);
               color: #6f6d71;
+              margin: 1rem;
             }
           }
         }
@@ -576,6 +569,7 @@
         }
       }
       .header-images {
+        display: none;
         .daily-task {
           position: absolute;
           width: 265px;
@@ -622,7 +616,7 @@
           line-height: 45px;
           /* identical to box height */
           text-align: center;
-          letter-spacing: -4px;
+          letter-spacing: 0px;
           text-transform: capitalize;
 
           color: #212121;
@@ -763,6 +757,7 @@
           flex: none;
           order: 0;
           flex-grow: 0;
+          margin: 1.5rem;
         }
       }
       .button-wrapper {
@@ -837,6 +832,7 @@
           letter-spacing: 0.15px;
 
           color: #314150;
+          margin: 1rem;
         }
         .username {
           margin-top: 50px;
@@ -853,6 +849,7 @@
           /* identical to box height */
 
           color: #314150;
+          margin: 1rem;
         }
         .designation {
           margin-top: 20px;
@@ -869,11 +866,12 @@
           /* identical to box height */
 
           color: #646464;
+          margin: 1rem;
         }
       }
     }
     .bottom-section {
-      height: 1200px;
+      height: 1400px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -953,6 +951,7 @@
                 order: 0;
                 flex-grow: 0;
                 height: 70px;
+                margin: 1rem;
               }
               .content {
                 height: 154px;
@@ -986,6 +985,7 @@
                 max-height: 9999;
                 transition: all 0.5s cubic-bezier(0, 1, 0, 1);
                 color: #6f6d71;
+                margin: 1rem;
               }
             }
           }
@@ -1077,28 +1077,15 @@
         }
       }
       .header-images {
-        .daily-task {
-          position: absolute;
-          width: 265px;
-          height: 72px;
-          left: 721px;
-          top: 182px;
-        }
+        display: none;
         .guy-with-laptop {
           position: absolute;
           width: 290px;
           height: 347px;
           left: 800px;
           top: 218px;
-
+          display: none;
           border-radius: 30px;
-        }
-        .live {
-          position: absolute;
-          width: 314px;
-          height: 136px;
-          left: 849px;
-          top: 497px;
         }
       }
     }
@@ -1121,7 +1108,7 @@
           line-height: 45px;
           /* identical to box height */
           text-align: center;
-          letter-spacing: -4px;
+          letter-spacing: 0px;
           text-transform: capitalize;
 
           color: #212121;
@@ -1258,7 +1245,7 @@
           color: #ffffff;
 
           /* Inside auto layout */
-
+          margin: 1.5rem;
           flex: none;
           order: 0;
           flex-grow: 0;
@@ -1336,6 +1323,7 @@
           letter-spacing: 0.15px;
 
           color: #314150;
+          margin: 1rem;
         }
         .username {
           margin-top: 50px;
@@ -1352,6 +1340,7 @@
           /* identical to box height */
 
           color: #314150;
+          margin: 1rem;
         }
         .designation {
           margin-top: 20px;
@@ -1368,6 +1357,7 @@
           /* identical to box height */
 
           color: #646464;
+          margin: 1rem;
         }
       }
     }
@@ -1452,6 +1442,7 @@
                 order: 0;
                 flex-grow: 0;
                 height: 70px;
+                margin: 1rem;
               }
               .content {
                 height: 154px;
@@ -1485,6 +1476,7 @@
                 max-height: 9999;
                 transition: all 0.5s cubic-bezier(0, 1, 0, 1);
                 color: #6f6d71;
+                margin: 1rem;
               }
             }
           }
@@ -1626,7 +1618,7 @@
           line-height: 45px;
           /* identical to box height */
           text-align: center;
-          letter-spacing: -4px;
+          letter-spacing: 0px;
           text-transform: capitalize;
 
           color: #212121;
@@ -1771,6 +1763,7 @@
           flex: none;
           order: 0;
           flex-grow: 0;
+          margin: 1.5rem;
         }
       }
       .button-wrapper {
@@ -1846,6 +1839,7 @@
           letter-spacing: 0.15px;
 
           color: #314150;
+          margin: 1rem;
         }
         .username {
           margin-top: 50px;
@@ -1862,6 +1856,7 @@
           /* identical to box height */
 
           color: #314150;
+          margin: 1rem;
         }
         .designation {
           margin-top: 20px;
@@ -1878,6 +1873,7 @@
           /* identical to box height */
 
           color: #646464;
+          margin: 1rem;
         }
       }
     }
@@ -1907,7 +1903,7 @@
           font-style: normal;
           font-weight: 700;
           font-size: 30px;
-          line-height: 80px;
+          line-height: 40px;
           /* identical to box height, or 222% */
 
           text-align: center;
@@ -1968,6 +1964,7 @@
                 order: 0;
                 flex-grow: 0;
                 height: 70px;
+                margin: 1rem;
               }
               .content {
                 height: 154px;
@@ -2001,6 +1998,7 @@
                 max-height: 9999;
                 transition: all 0.5s cubic-bezier(0, 1, 0, 1);
                 color: #6f6d71;
+                margin: 1rem;
               }
             }
           }

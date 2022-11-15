@@ -11,7 +11,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-
+import homeBanner from "../Assets/banner.png";
 import EmployerOption from "./Reusables/EmployerOption";
 import BootcampOption from "./Reusables/BootcampOption";
 const optionView = [
@@ -171,16 +171,10 @@ export default function Home() {
         </div>
         <div className={styles["header-images"]}>
           <img
-            src={guywithlaptop}
+            src={homeBanner}
             alt="guy with laptop"
             className={styles["guy-with-laptop"]}
           />
-          <img
-            src={dailyTask}
-            alt="dailytask"
-            className={styles["daily-task"]}
-          />
-          <img src={live} alt="live" className={styles["live"]} />
         </div>
       </div>
       <div className={styles["who-we-serve-section"]}>
