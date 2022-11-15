@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/website2.0/static/css/main.b1a9493a.css",
-    "main.js": "/website2.0/static/js/main.6c314630.js",
+    "main.css": "/website2.0/static/css/main.cf42703c.css",
+    "main.js": "/website2.0/static/js/main.6abc72f1.js",
     "static/js/787.0b8291f7.chunk.js": "/website2.0/static/js/787.0b8291f7.chunk.js",
     "static/media/candidatebanner.png": "/website2.0/static/media/candidatebanner.d8809cab8ad6c1b95724.png",
     "static/media/bootcampbanner.png": "/website2.0/static/media/bootcampbanner.b13fa3c0e018d6543426.png",
     "static/media/employerbanner.png": "/website2.0/static/media/employerbanner.a524f37df76980e8555a.png",
+    "static/media/banner.png": "/website2.0/static/media/banner.3db4ce32ea38541cdfc6.png",
     "static/media/lady-with-laptop.png": "/website2.0/static/media/lady-with-laptop.69c5adffba42354afdc8.png",
     "static/media/candidate-mobile.png": "/website2.0/static/media/candidate-mobile.f853b351cff71970d5d9.png",
     "static/media/bootcamp-mobile.png": "/website2.0/static/media/bootcamp-mobile.a705570e4f8ad10dbb13.png",
@@ -20,12 +21,12 @@
     "static/media/live.png": "/website2.0/static/media/live.ef554ea70a4a0fcb15e3.png",
     "static/media/home-banner.png": "/website2.0/static/media/home-banner.1aff5adc811e7a757069.png",
     "index.html": "/website2.0/index.html",
-    "main.b1a9493a.css.map": "/website2.0/static/css/main.b1a9493a.css.map",
-    "main.6c314630.js.map": "/website2.0/static/js/main.6c314630.js.map",
+    "main.cf42703c.css.map": "/website2.0/static/css/main.cf42703c.css.map",
+    "main.6abc72f1.js.map": "/website2.0/static/js/main.6abc72f1.js.map",
     "787.0b8291f7.chunk.js.map": "/website2.0/static/js/787.0b8291f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1a9493a.css",
-    "static/js/main.6c314630.js"
+    "static/css/main.cf42703c.css",
+    "static/js/main.6abc72f1.js"
   ]
 }
