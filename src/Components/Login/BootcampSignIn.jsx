@@ -90,7 +90,7 @@ export default function BootcampSignIn() {
         <Button className={styles["submit-btn"]}>Next</Button>
       </div>
       <div className={styles["or-login-with"]}>or login with</div>
-      <div className={styles["google-section"]}>
+      {/* <div className={styles["google-section"]}>
         <Button className={styles["sign-in-with-google"]}>
           <img
             src={googleLogo}
@@ -99,7 +99,7 @@ export default function BootcampSignIn() {
           />
           Continue with Google
         </Button>
-      </div>
+      </div> */}
       <div className={styles["sign-up-section"]}>
         <div className={styles["dont-have-account"]}>
           Dont have an account ?
