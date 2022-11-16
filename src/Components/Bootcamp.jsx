@@ -4,7 +4,7 @@ import styles from "../Stylesheets/bootcamp.module.scss";
 import ladyWithLaptop from "../Assets/lady-with-laptop.png";
 import guyTeaching from "../Assets/guy-teaching.png";
 import { Button } from "@mui/material";
-import DoneOutlineIcon from "@mui/icons-material/DoneOutline";
+import DoneIcon from "@mui/icons-material/Done";
 import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
 const data = [
   {
@@ -165,9 +165,11 @@ export default function Bootcamp() {
                   <div className={styles["point-wrapper"]} key={key}>
                     <div className={styles["heading"]}>
                       <div className={styles["pointer"]}>
-                        <DoneOutlineIcon />
+                        <DoneIcon />
                       </div>
-                      {item.header}
+                      <div className={styles["point-header"]}>
+                        {item.header}
+                      </div>
                     </div>
                     <div className={styles["body"]}>{item.body}</div>
                   </div>

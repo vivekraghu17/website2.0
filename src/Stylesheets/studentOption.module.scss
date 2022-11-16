@@ -3,20 +3,14 @@
     display: flex;
     flex-direction: row;
     margin-top: 60px;
+    align-items: center;
     .left-side-images {
       width: 50%;
-      .blue-background {
-        width: 486px;
-        height: 342px;
-        left: 0px;
-        top: 1145px;
-
-        background: #4285f4;
-      }
+      display: flex;
+      justify-content: center;
       .lady-with-laptop {
-        position: absolute;
-        width: 582.18px;
-        height: 509.18px;
+        width: 447.18px;
+        height: 312.18px;
         left: 39.82px;
         top: 1114px;
         filter: drop-shadow(0px 67.1144px 109.061px rgba(0, 0, 0, 0.05));
@@ -32,12 +26,15 @@
       .info-wrapper {
         display: flex;
         flex-direction: row;
+        margin: 1rem;
         .pointer {
           width: 31.13px;
           height: 31.13px;
           left: 589.63px;
           top: 1467px;
-
+          display: flex;
+          justify-content: center;
+          align-items: center;
           background: #407bff;
           border-radius: 11px;
           transform: rotate(46.65deg);
@@ -53,7 +50,7 @@
           height: 103px;
           left: 625px;
           top: 1155px;
-
+          margin-left: 1rem;
           .heading {
             width: 290px;
             height: 26px;
@@ -127,10 +124,9 @@
           background: #4285f4;
         }
         .lady-with-laptop {
-          position: absolute;
-          width: 582.18px;
-          height: 509.18px;
-          left: 0.82px;
+          width: 372.18px;
+          height: 319.18px;
+          left: 0px;
           top: 1114px;
           filter: drop-shadow(0px 67.1144px 109.061px rgba(0, 0, 0, 0.05));
           border-radius: 10px;
@@ -145,12 +141,15 @@
         .info-wrapper {
           display: flex;
           flex-direction: row;
+          margin: 1rem;
           .pointer {
             width: 31.13px;
             height: 31.13px;
             left: 589.63px;
             top: 1467px;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background: #407bff;
             border-radius: 11px;
             transform: rotate(46.65deg);
@@ -166,7 +165,7 @@
             height: 103px;
             left: 625px;
             top: 1155px;
-
+            margin-left: 1rem;
             .heading {
               width: 290px;
               height: 26px;
@@ -232,14 +231,6 @@
       margin-top: 60px;
       .left-side-images {
         width: 50%;
-        .blue-background {
-          width: 486px;
-          height: 342px;
-          left: 0px;
-          top: 1145px;
-          display: none;
-          background: #4285f4;
-        }
         .lady-with-laptop {
           position: absolute;
           width: 582.18px;
@@ -260,12 +251,15 @@
         .info-wrapper {
           display: flex;
           flex-direction: row;
+          margin: 1rem;
           .pointer {
             width: 31.13px;
             height: 31.13px;
             left: 589.63px;
             top: 1467px;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background: #407bff;
             border-radius: 11px;
             transform: rotate(46.65deg);
@@ -281,7 +275,7 @@
             height: 103px;
             left: 625px;
             top: 1155px;
-
+            margin-left: 1rem;
             .heading {
               width: 290px;
               height: 26px;

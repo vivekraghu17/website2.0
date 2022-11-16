@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../Stylesheets/employerOption.module.scss";
 import ladyWithLaptop from "../../Assets/lady-with-laptop.png";
-import DoneOutlineOutlinedIcon from "@mui/icons-material/DoneOutlineOutlined";
+import DoneIcon from "@mui/icons-material/Done";
 
 const studentInformation = [
   {
@@ -35,11 +35,10 @@ export default function EmployerOption() {
     <div className={styles["root-div"]}>
       <div className={styles["main-div"]}>
         <div className={styles["left-side-images"]}>
-          <div className={styles["blue-background"]} />
           <img
             src={ladyWithLaptop}
-            alt="lady with laptop"
             className={styles["lady-with-laptop"]}
+            alt="lady-with-laptop"
           />
         </div>
         <div className={styles["right-side-information"]}>
@@ -47,7 +46,7 @@ export default function EmployerOption() {
             return (
               <div className={styles["info-wrapper"]} key={key}>
                 <div className={styles["pointer"]}>
-                  <DoneOutlineOutlinedIcon
+                  <DoneIcon
                     sx={{ transform: "rotate(-45deg)", color: "white" }}
                   />
                 </div>

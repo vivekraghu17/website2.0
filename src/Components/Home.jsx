@@ -2,9 +2,6 @@ import React from "react";
 import styles from "../Stylesheets/home.module.scss";
 
 import Button from "@mui/material/Button";
-import live from "../Assets/live.png";
-import guywithlaptop from "../Assets/guy-with-laptop.png";
-import dailyTask from "../Assets/dailytask.png";
 import StudentOption from "./Reusables/StudentOption";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";

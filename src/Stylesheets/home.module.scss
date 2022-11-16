@@ -1,6 +1,9 @@
 .main-div {
   .home-banner {
     background-image: url("../Assets/home-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 695px;
     width: 100%;
     display: flex;
@@ -15,7 +18,7 @@
       .help-text {
         width: 222px;
         height: 17px;
-
+        font-family: "Roboto";
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -27,7 +30,7 @@
       }
       .launch-text {
         width: 650px;
-
+        font-family: "Roboto";
         font-style: normal;
         font-weight: 600;
         font-size: 48px;
@@ -38,24 +41,32 @@
       }
       .launch-sub-text {
         width: 500px;
-
+        font-family: "Roboto";
         font-style: normal;
-        font-weight: 200;
-        line-height: 120%;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        /* or 180% */
+
+        letter-spacing: 0.02em;
+
         color: #ffffff;
+
+        opacity: 0.9;
       }
       .apply-section {
         display: flex;
         flex-direction: row;
         align-items: center;
+
         .apply-now-btn {
           display: flex;
           flex-direction: row;
           align-items: center;
           padding: 12px 36px;
+          margin-right: 20px;
           gap: 10px;
-
+          font-family: "Roboto";
           font-style: normal;
           font-weight: 800;
           font-size: 16px;
@@ -63,7 +74,6 @@
 
           color: black;
           background: #ffffff;
-          border-radius: 28px;
         }
         .hire-students {
           font-style: normal;
@@ -74,7 +84,7 @@
           margin-left: 10px;
           letter-spacing: 2px;
           text-decoration-line: underline;
-
+          font-family: "Roboto";
           color: #ffffff;
         }
       }
@@ -188,7 +198,6 @@
         flex-direction: row;
         align-items: flex-start;
         padding: 12px 36px;
-        gap: 10px;
         justify-content: center;
         align-items: center;
         height: 57px;
@@ -211,7 +220,7 @@
         background: linear-gradient(0deg, #fac30f, #fac30f),
           linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-        border-radius: 28px;
+        //border-radius: 28px;
       }
     }
   }
@@ -221,14 +230,13 @@
     display: flex;
     flex-direction: column;
     height: 500px;
+    padding-bottom: 32px;
+    padding-top: 32px;
     .header-wrapper {
       justify-content: center;
       align-items: center;
       display: flex;
       .heading {
-        width: 419px;
-        height: 45px;
-
         font-family: "Libre Baskerville";
         font-style: normal;
         font-weight: 700;
@@ -243,12 +251,6 @@
         text-transform: capitalize;
 
         color: #ffffff;
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 0;
-        flex-grow: 0;
         margin: 1.5rem;
       }
     }
@@ -428,6 +430,8 @@
             border-radius: 5px;
             display: flex;
             flex-direction: column;
+            padding: 0.125rem 0;
+            //margin: 1rem;
             .title {
               font-family: "Roboto";
               font-style: normal;
@@ -442,8 +446,9 @@
               flex: none;
               order: 0;
               flex-grow: 0;
-              height: 70px;
-              margin: 1rem;
+              height: 40px;
+              //margin: 1rem;
+              padding: 0.5rem;
             }
             .content {
               height: 154px;
@@ -459,11 +464,12 @@
               /* or 27px */
               max-height: 0;
               overflow: hidden;
-              transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+              //transition: all 0.5s cubic-bezier(0, 1, 0, 1);
               color: #6f6d71;
+              padding: 0.125rem;
             }
             .content-show {
-              height: 154px;
+              height: 100px;
               left: 4.85%;
               right: 14.74%;
               top: 66px;
@@ -477,6 +483,7 @@
               max-height: 9999;
               transition: all 0.5s cubic-bezier(0, 1, 0, 1);
               color: #6f6d71;
+              padding: 0.125rem 0;
               margin: 1rem;
             }
           }
@@ -501,10 +508,11 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        margin-left: 0px;
         .help-text {
           width: 222px;
           height: 17px;
-
+          font-family: "Roboto";
           font-style: normal;
           font-weight: 600;
           font-size: 16px;
@@ -552,7 +560,6 @@
 
             color: black;
             background: #ffffff;
-            border-radius: 28px;
           }
           .hire-students {
             font-style: normal;
@@ -719,7 +726,6 @@
           background: linear-gradient(0deg, #fac30f, #fac30f),
             linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-          border-radius: 28px;
         }
       }
     }
@@ -936,6 +942,8 @@
               border-radius: 5px;
               display: flex;
               flex-direction: column;
+              padding: 0.125rem 0;
+              margin: 1rem;
               .title {
                 font-family: "Roboto";
                 font-style: normal;
@@ -951,7 +959,7 @@
                 order: 0;
                 flex-grow: 0;
                 height: 70px;
-                margin: 1rem;
+                padding: 0.5rem;
               }
               .content {
                 height: 154px;
@@ -969,6 +977,7 @@
                 overflow: hidden;
                 transition: all 0.5s cubic-bezier(0, 1, 0, 1);
                 color: #6f6d71;
+                padding: 0.125rem;
               }
               .content-show {
                 height: 154px;
@@ -985,7 +994,7 @@
                 max-height: 9999;
                 transition: all 0.5s cubic-bezier(0, 1, 0, 1);
                 color: #6f6d71;
-                margin: 1rem;
+                padding: 0.125rem 0;
               }
             }
           }
@@ -1009,6 +1018,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        margin-left: 0px;
         .help-text {
           width: 222px;
           height: 17px;
@@ -1060,7 +1070,6 @@
 
             color: black;
             background: #ffffff;
-            border-radius: 28px;
           }
           .hire-students {
             font-style: normal;
@@ -1211,7 +1220,6 @@
           background: linear-gradient(0deg, #fac30f, #fac30f),
             linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-          border-radius: 28px;
         }
       }
     }
@@ -1221,14 +1229,13 @@
       display: flex;
       flex-direction: column;
       height: 500px;
+      padding-bottom: 32px;
+      padding-top: 32px;
       .header-wrapper {
         justify-content: center;
         align-items: center;
         display: flex;
         .heading {
-          width: 419px;
-          height: 45px;
-
           font-family: "Libre Baskerville";
           font-style: normal;
           font-weight: 700;
@@ -1246,9 +1253,6 @@
 
           /* Inside auto layout */
           margin: 1.5rem;
-          flex: none;
-          order: 0;
-          flex-grow: 0;
         }
       }
       .button-wrapper {
@@ -1427,6 +1431,8 @@
               border-radius: 5px;
               display: flex;
               flex-direction: column;
+              padding: 0.125rem 0;
+              margin: 1rem;
               .title {
                 font-family: "Roboto";
                 font-style: normal;
@@ -1442,7 +1448,7 @@
                 order: 0;
                 flex-grow: 0;
                 height: 70px;
-                margin: 1rem;
+                padding: 0.5rem;
               }
               .content {
                 height: 154px;
@@ -1460,6 +1466,7 @@
                 overflow: hidden;
                 transition: all 0.5s cubic-bezier(0, 1, 0, 1);
                 color: #6f6d71;
+                padding: 0.125rem;
               }
               .content-show {
                 height: 154px;
@@ -1476,7 +1483,7 @@
                 max-height: 9999;
                 transition: all 0.5s cubic-bezier(0, 1, 0, 1);
                 color: #6f6d71;
-                margin: 1rem;
+                padding: 0.125rem 0;
               }
             }
           }
@@ -1500,11 +1507,12 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        margin-left: 0px;
         .help-text {
           width: 200px;
           height: 17px;
           text-align: center;
-
+          font-family: "Roboto";
           font-style: normal;
           font-weight: 600;
           font-size: 16px;
@@ -1522,17 +1530,20 @@
           font-size: 48px;
           line-height: 120%;
           /* or 58px */
-
+          font-family: "Roboto";
+          justify-content: center;
           color: #ffffff;
         }
         .launch-sub-text {
-          width: 379px;
+          width: 100%;
           text-align: center;
           font-style: normal;
           font-weight: 200;
           line-height: 120%;
           font-size: 18px;
+          font-family: "Roboto";
           color: #ffffff;
+          justify-content: center;
         }
         .apply-section {
           display: flex;
@@ -1552,7 +1563,6 @@
 
             color: black;
             background: #ffffff;
-            border-radius: 28px;
           }
           .hire-students {
             font-style: normal;
@@ -1722,7 +1732,6 @@
           background: linear-gradient(0deg, #fac30f, #fac30f),
             linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-          border-radius: 28px;
         }
       }
     }

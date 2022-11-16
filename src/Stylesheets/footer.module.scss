@@ -20,7 +20,7 @@
       color: #ffffff;
 
       /* Inside auto layout */
-
+      display: none;
       flex: none;
       order: 0;
       flex-grow: 0;
@@ -83,7 +83,7 @@
         color: #ffffff;
         margin-top: 10px;
         /* Inside auto layout */
-
+        display: flex;
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -146,7 +146,7 @@
         color: #ffffff;
         width: 20px;
         /* Inside auto layout */
-
+        display: none;
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -154,7 +154,7 @@
       .social-media-wrapper {
         display: flex;
         flex-direction: row;
-        display: none;
+        display: flex;
         > img {
           width: 33px;
           height: 33px;

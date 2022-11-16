@@ -8,25 +8,25 @@ import HeaderMenu from "./Reusables/HeaderMenu";
 const headerMenu = [
   {
     key: "home",
-    label: "Home",
+    label: "HOME",
     selected: true,
     route: "/",
   },
   {
     key: "companies",
-    label: "Companies",
+    label: "COMPANIES",
     selected: false,
     route: "/employer",
   },
   {
     key: "bootcamps",
-    label: "Bootcamps",
+    label: "BOOTCAMPS",
     selected: false,
     route: "/bootcamp",
   },
   {
     key: "candidate",
-    label: "Candidate",
+    label: "CANDIDATE",
     selected: false,
     route: "/candidate",
   },

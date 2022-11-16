@@ -4,7 +4,7 @@ import styles from "../Stylesheets/employer.module.scss";
 import ladyWithLaptop from "../Assets/lady-with-laptop.png";
 import guyTeaching from "../Assets/guy-teaching.png";
 import { Button } from "@mui/material";
-import DoneOutlineIcon from "@mui/icons-material/DoneOutline";
+import DoneIcon from "@mui/icons-material/Done";
 import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
 const data = [
   {
@@ -61,7 +61,6 @@ export default function Employer() {
         </div>
         <div className={styles["benefit-1-section"]}>
           <div className={styles["left-side-images"]}>
-            <div className={styles["blue-background"]}></div>
             <img
               src={ladyWithLaptop}
               alt="ladywithlaptop"
@@ -101,7 +100,6 @@ export default function Employer() {
             </div>
           </div>
           <div className={styles["right-side-images"]}>
-            <div className={styles["blue-background"]} />
             <img
               src={guyTeaching}
               alt="guy-teaching"
@@ -111,7 +109,6 @@ export default function Employer() {
         </div>
         <div className={styles["benefit-3-section"]}>
           <div className={styles["left-side-images"]}>
-            <div className={styles["blue-background"]}></div>
             <img
               src={ladyWithLaptop}
               alt="ladywithlaptop"
@@ -164,9 +161,11 @@ export default function Employer() {
                   <div className={styles["point-wrapper"]} key={key}>
                     <div className={styles["heading"]}>
                       <div className={styles["pointer"]}>
-                        <DoneOutlineIcon />
+                        <DoneIcon />
                       </div>
-                      {item.header}
+                      <div className={styles["point-header"]}>
+                        {item.header}
+                      </div>
                     </div>
                     <div className={styles["body"]}>{item.body}</div>
                   </div>
