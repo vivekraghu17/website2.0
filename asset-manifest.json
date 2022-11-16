@@ -1,32 +1,30 @@
 {
   "files": {
-    "main.css": "/website2.0/static/css/main.cf42703c.css",
-    "main.js": "/website2.0/static/js/main.6abc72f1.js",
+    "main.css": "/website2.0/static/css/main.03b9d175.css",
+    "main.js": "/website2.0/static/js/main.96e1972a.js",
     "static/js/787.0b8291f7.chunk.js": "/website2.0/static/js/787.0b8291f7.chunk.js",
     "static/media/candidatebanner.png": "/website2.0/static/media/candidatebanner.d8809cab8ad6c1b95724.png",
     "static/media/bootcampbanner.png": "/website2.0/static/media/bootcampbanner.b13fa3c0e018d6543426.png",
     "static/media/employerbanner.png": "/website2.0/static/media/employerbanner.a524f37df76980e8555a.png",
     "static/media/banner.png": "/website2.0/static/media/banner.3db4ce32ea38541cdfc6.png",
-    "static/media/lady-with-laptop.png": "/website2.0/static/media/lady-with-laptop.69c5adffba42354afdc8.png",
     "static/media/candidate-mobile.png": "/website2.0/static/media/candidate-mobile.f853b351cff71970d5d9.png",
     "static/media/bootcamp-mobile.png": "/website2.0/static/media/bootcamp-mobile.a705570e4f8ad10dbb13.png",
-    "static/media/guy-teaching.png": "/website2.0/static/media/guy-teaching.e9cc492a0e333c9ae581.png",
     "static/media/employer-mobile.png": "/website2.0/static/media/employer-mobile.29ddfe4f87c705d3e83e.png",
-    "static/media/guy-with-laptop.png": "/website2.0/static/media/guy-with-laptop.e9b8d214cda276aad687.png",
     "static/media/talk-to-specialist-banner.png": "/website2.0/static/media/talk-to-specialist-banner.2aa95f2362e8b454f233.png",
+    "static/media/guy-teaching.png": "/website2.0/static/media/guy-teaching.8f7feab1f03ea47ae064.png",
+    "static/media/lady-with-laptop.png": "/website2.0/static/media/lady-with-laptop.51b10de4ae9a8b8aad7e.png",
     "static/media/google-logo-colors.png": "/website2.0/static/media/google-logo-colors.eeb1008588b4a8cd8eca.png",
     "static/media/404notfound.png": "/website2.0/static/media/404notfound.0db5c025c973f8b63899.png",
     "static/media/contactusimage.png": "/website2.0/static/media/contactusimage.571e8fe888f4f26f74c4.png",
     "static/media/forgot-password-banner.png": "/website2.0/static/media/forgot-password-banner.8a7c8d0debe2c587dbac.png",
-    "static/media/live.png": "/website2.0/static/media/live.ef554ea70a4a0fcb15e3.png",
     "static/media/home-banner.png": "/website2.0/static/media/home-banner.1aff5adc811e7a757069.png",
     "index.html": "/website2.0/index.html",
-    "main.cf42703c.css.map": "/website2.0/static/css/main.cf42703c.css.map",
-    "main.6abc72f1.js.map": "/website2.0/static/js/main.6abc72f1.js.map",
+    "main.03b9d175.css.map": "/website2.0/static/css/main.03b9d175.css.map",
+    "main.96e1972a.js.map": "/website2.0/static/js/main.96e1972a.js.map",
     "787.0b8291f7.chunk.js.map": "/website2.0/static/js/787.0b8291f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf42703c.css",
-    "static/js/main.6abc72f1.js"
+    "static/css/main.03b9d175.css",
+    "static/js/main.96e1972a.js"
   ]
 }
