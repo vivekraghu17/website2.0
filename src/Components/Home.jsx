@@ -1,16 +1,18 @@
 import React from "react";
 import styles from "../Stylesheets/home.module.scss";
-
+import Carousel from "react-elastic-carousel";
 import Button from "@mui/material/Button";
 import StudentOption from "./Reusables/StudentOption";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import homeBanner from "../Assets/banner.png";
 import EmployerOption from "./Reusables/EmployerOption";
 import BootcampOption from "./Reusables/BootcampOption";
+import user1 from "../Assets/user1.png";
+import user2 from "../Assets/user2.png";
+import user3 from "../Assets/user3.png";
+
 const optionView = [
   {
     key: "employer",
@@ -35,6 +37,7 @@ const candidateReviews = [
       "“With my jarbel ranking increasing rapidly, the easy way of delivery given by the mentor made me understand more quickly.”",
     username: "Marvin McKinney",
     designation: "Student Of STM",
+    image: user1,
   },
   {
     key: "2",
@@ -42,6 +45,7 @@ const candidateReviews = [
       "“With my jarbel ranking increasing rapidly, the easy way of delivery given by the mentor made me understand more quickly.”",
     username: "Emilia Tadashi",
     designation: "Highschool Student",
+    image: user2,
   },
   {
     key: "3",
@@ -49,6 +53,7 @@ const candidateReviews = [
       "“With my jarbel ranking increasing rapidly, the easy way of delivery given by the mentor made me understand more quickly.”",
     username: "Esther Howard",
     designation: "Multimedia Enthusiast",
+    image: user3,
   },
   {
     key: "4",
@@ -56,6 +61,7 @@ const candidateReviews = [
       "“With my jarbel ranking increasing rapidly, the easy way of delivery given by the mentor made me understand more quickly.”",
     username: "Marvin McKinney",
     designation: "Student Of STM",
+    image: user1,
   },
   {
     key: "5",
@@ -63,6 +69,7 @@ const candidateReviews = [
       "“With my jarbel ranking increasing rapidly, the easy way of delivery given by the mentor made me understand more quickly.”",
     username: "Emilia Tadashi",
     designation: "Highschool Student",
+    image: user2,
   },
   {
     key: "6",
@@ -70,6 +77,7 @@ const candidateReviews = [
       "“With my jarbel ranking increasing rapidly, the easy way of delivery given by the mentor made me understand more quickly.”",
     username: "Esther Howard",
     designation: "Multimedia Enthusiast",
+    image: user3,
   },
   {
     key: "7",
@@ -77,6 +85,7 @@ const candidateReviews = [
       "“With my jarbel ranking increasing rapidly, the easy way of delivery given by the mentor made me understand more quickly.”",
     username: "Esther Howard",
     designation: "Multimedia Enthusiast",
+    image: user1,
   },
   {
     key: "8",
@@ -84,6 +93,7 @@ const candidateReviews = [
       "“With my jarbel ranking increasing rapidly, the easy way of delivery given by the mentor made me understand more quickly.”",
     username: "Esther Howard",
     designation: "Multimedia Enthusiast",
+    image: user2,
   },
 ];
 const faq = [
@@ -112,30 +122,22 @@ const faq = [
       "Nulla Lorem mollit cupidatat irure. Voluptate exercitation incididunt aliquip deserunt. Nulla Lorem mollit cupidatat irure.",
   },
 ];
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 1 },
+  { width: 768, itemsToShow: 1 },
+  { width: 1000, itemsToShow: 2, itemsToScroll: 2 },
+  { width: 1200, itemsToShow: 3, itemsToScroll: 3 },
+];
 export default function Home() {
   const [options, setOptions] = React.useState(optionView);
   const [menu, setMenu] = React.useState("employer");
   const ref = React.useRef(null);
-  const [doc, setDocument] = React.useState();
-  React.useEffect(() => {
-    const box = document.querySelector("#cardmap");
-    setDocument(box);
-  }, []);
-
-  const previousAction = () => {
-    const width = doc.clientWidth;
-    doc.scrollLeft = doc.scrollLeft - width;
-  };
-  const nextAction = () => {
-    const width = doc.clientWidth;
-    doc.scrollLeft = doc.scrollLeft + width;
-  };
   const handleOption = (key) => {
     options.forEach((item) => {
       if (item.key === key) item.selected = true;
       else item.selected = false;
     });
-    console.log(key);
     setMenu(key);
 
     setOptions([...options]);
@@ -211,24 +213,28 @@ export default function Home() {
         <div className={styles["header-wrapper"]}>
           <div className={styles["heading"]}>What our Candidates say</div>
         </div>
-        <div className={styles["button-wrapper"]}>
-          <Button className={styles["previous"]} onClick={previousAction}>
-            <ArrowBackIcon />
-          </Button>
-          <Button className={styles["next"]} onClick={nextAction}>
-            <ArrowForwardIcon />
-          </Button>
-        </div>
         <div className={styles["review-wrapper"]} id="cardmap" ref={ref}>
-          {candidateReviews.map((item, key) => {
-            return (
-              <div className={styles["card"]} key={key}>
-                <div className={styles["review"]}>{item.review}</div>
-                <div className={styles["username"]}>{item.username}</div>
-                <div className={styles["designation"]}>{item.designation}</div>
-              </div>
-            );
-          })}
+          <Carousel breakPoints={breakPoints}>
+            {candidateReviews.map((item, key) => {
+              return (
+                <div className={styles["wrapper"]} key={key}>
+                  <div className={styles["user-image"]}>
+                    <img src={item.image} alt="user" />
+                  </div>
+                  <div className={styles["card"]} key={key}>
+                    <div className={styles["review"]}>{item.review}</div>
+                    <div className={styles["line"]}></div>
+                    <div className={styles["user-info"]}>
+                      <div className={styles["username"]}>{item.username}</div>
+                      <div className={styles["designation"]}>
+                        {item.designation}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </Carousel>
         </div>
       </div>
       <div className={styles["bottom-section"]}>

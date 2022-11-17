@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../Stylesheets/bootcampOption.module.scss";
 import ladyWithLaptop from "../../Assets/lady-with-laptop.png";
+import guyTeaching from "../../Assets/guy-teaching.png";
 import DoneIcon from "@mui/icons-material/Done";
 const studentInformation = [
   {
@@ -30,7 +31,7 @@ export default function BootcampOption() {
       <div className={styles["main-div"]}>
         <div className={styles["left-side-images"]}>
           <img
-            src={ladyWithLaptop}
+            src={guyTeaching}
             className={styles["lady-with-laptop"]}
             alt="lady-with-laptop"
           />

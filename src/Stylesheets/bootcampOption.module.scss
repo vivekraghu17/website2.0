@@ -1,13 +1,14 @@
 .root-div {
   .main-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-top: 60px;
     align-items: center;
     .left-side-images {
       width: 50%;
       display: flex;
       justify-content: center;
+      align-items: center;
       .lady-with-laptop {
         width: 447.18px;
         height: 312.18px;
@@ -23,6 +24,8 @@
       flex-wrap: wrap;
       width: 50%;
       margin-left: 50px;
+      justify-content: flex-end;
+      align-items: center;
       .info-wrapper {
         display: flex;
         flex-direction: row;

@@ -186,3 +186,14 @@
     }
   }
 }
+@media only screen and (max-width: 767px) {
+  .main-div {
+    .form-wrapper {
+      .form-control {
+        .input-field {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

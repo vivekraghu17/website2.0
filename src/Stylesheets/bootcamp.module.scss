@@ -582,7 +582,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 25%;
+        width: 50%;
         margin: 1rem;
         .point-wrapper {
           display: flex;
@@ -640,8 +640,11 @@
   }
   .bottom-section {
     display: flex;
-
+    width: 100%;
     justify-content: center;
+    .specialist-banner {
+      width: 100%;
+    }
   }
 }
 @media only screen and (max-width: 767px) {
@@ -655,6 +658,9 @@
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       width: 100%;
       .banner-header {
         width: 100%;
@@ -741,7 +747,7 @@
         flex-direction: column;
         align-items: center;
         margin-left: 0%;
-
+        width: 100%;
         .header-wrapper {
           .header {
             display: flex;
@@ -780,7 +786,8 @@
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-          width: 75%;
+          width: 100%;
+          justify-content: center;
           .points {
             display: flex;
             flex-direction: column;
@@ -845,22 +852,25 @@
     .benefit-2-section {
       display: flex;
       flex-direction: column-reverse;
-      margin-top: 30px;
+      margin-top: 0px;
       margin-left: 0px;
       justify-content: space-between;
       align-items: center;
+      width: 100%;
       .left-side-information {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
         .header-wrapper {
+          margin-top: 0px;
           .header {
             display: flex;
             flex-direction: row;
             align-items: flex-start;
             padding: 20px 27px;
             gap: 10px;
-            margin-top: 100px;
+            margin-top: 0px;
             width: 110px;
             height: 43px;
 
@@ -955,17 +965,11 @@
         }
       }
       .right-side-images {
-        .blue-background {
-          width: 548px;
-          height: 369px;
-          display: none;
-          background: #4285f4;
-        }
         .guy-teaching {
           margin-top: 50px;
           position: relative;
-          width: 200px;
-          height: 200px;
+          width: 100%;
+          height: 100%;
           left: 0px;
           top: 0px;
         }
@@ -974,30 +978,21 @@
     .benefit-3-section {
       display: flex;
       flex-direction: column;
-      margin-top: 60px;
+      margin-top: 30px;
       .left-side-images {
-        .blue-background {
-          width: 533px;
-          height: 346px;
-          left: 0px;
-          top: 750px;
-          margin-top: 40px;
-          background: #4285f4;
-          display: none;
-        }
         .ladywithlaptop {
-          position: relative;
           width: 100%;
           height: 100%;
-          left: 0px;
-          top: 0px;
+          left: 0%;
+          top: 0%;
         }
       }
       .right-side-information {
         display: flex;
         flex-direction: column;
-        margin-left: 0px;
         align-items: center;
+        margin-left: 0%;
+        width: 100%;
         .header-wrapper {
           .header {
             display: flex;
@@ -1036,7 +1031,8 @@
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-          width: 75%;
+          width: 100%;
+          justify-content: center;
           .points {
             display: flex;
             flex-direction: column;
@@ -1103,7 +1099,8 @@
       flex-direction: column;
       margin-top: 30px;
       background: #dfe7f6;
-      height: 1000px;
+      height: 1300px;
+      justify-content: space-around;
       .header-wrapper {
         display: flex;
         flex-direction: column;
@@ -1146,7 +1143,7 @@
           font-size: 18px;
           line-height: 184%;
           /* or 33px */
-
+          margin-top: 50px;
           text-align: center;
 
           color: #263238;
@@ -1190,12 +1187,13 @@
             font-size: 16px;
             line-height: 30px;
             /* or 188% */
-
+            margin-top: 50px;
             color: #314150;
           }
           .button-wrapper {
             display: flex;
             justify-content: center;
+            margin-top: 50px;
             .join-today-btn {
               display: flex;
               flex-direction: row;
@@ -1290,7 +1288,7 @@
     }
   }
 }
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
+@media only screen and (min-width: 767px) and (max-width: 1100px) {
   .main-div {
     display: flex;
     flex-direction: column;
@@ -1439,7 +1437,7 @@
             margin: 1rem;
 
             .heading {
-              width: 301.65px;
+              width: 100%;
               height: 26px;
 
               font-family: "Roboto";
@@ -1466,7 +1464,7 @@
               flex-grow: 0;
             }
             .body {
-              width: 301.65px;
+              width: 100%;
               height: 61px;
               margin-top: 10px;
               font-family: "Roboto";
@@ -1552,7 +1550,7 @@
             margin-top: 20px;
 
             .heading {
-              width: 301.65px;
+              width: 100%;
               height: 26px;
 
               font-family: "Roboto";
@@ -1612,7 +1610,7 @@
         justify-content: center;
         align-items: flex-start;
         .guy-teaching {
-          width: 391px;
+          width: 100%;
           height: 300px;
         }
       }
@@ -1687,7 +1685,7 @@
             margin: 1rem;
 
             .heading {
-              width: 301.65px;
+              width: 100%;
               height: 26px;
 
               font-family: "Roboto";
@@ -1714,7 +1712,7 @@
               flex-grow: 0;
             }
             .body {
-              width: 301.65px;
+              width: 100%;
               height: 61px;
               margin-top: 10px;
               font-family: "Roboto";
@@ -1777,10 +1775,8 @@
           flex-grow: 0;
         }
         .sub-heading {
-          width: 751px;
+          width: 100%;
           height: 68px;
-          left: 288px;
-          top: 2314.24px;
 
           font-family: "Roboto";
           font-style: normal;
@@ -1797,18 +1793,18 @@
       .information-wrapper {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 80px;
         .left-side-wrapper {
           display: flex;
           flex-direction: column;
-          justify-content: space-evenly;
+          justify-content: space-around;
+          align-items: center;
           width: 50%;
           .heading {
-            width: 496px;
+            width: 100%;
             height: 204px;
-            left: 120px;
-            top: 2457px;
 
             font-family: "Libre Baskerville";
             font-style: normal;
@@ -1825,47 +1821,45 @@
             color: #111111;
           }
           .sub-heading {
-            width: 493px;
-            height: 120px;
-            left: 120px;
-            top: 2676px;
-
+            width: 100%;
             font-family: "Roboto";
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 30px;
             /* or 188% */
-
+            margin-top: 40px;
             color: #314150;
           }
-          .join-today-btn {
+          .button-wrapper {
             display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 12px 36px;
-            gap: 10px;
-            font-family: "Roboto";
-            font-style: normal;
-            font-weight: 800;
-            font-size: 15px;
-            line-height: 33px;
-            /* identical to box height, or 183% */
+            justify-content: flex-start;
+            .join-today-btn {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 800;
+              font-size: 15px;
+              line-height: 33px;
+              /* identical to box height, or 183% */
 
-            letter-spacing: 2px;
+              letter-spacing: 2px;
 
-            color: #ffffff;
+              color: #ffffff;
 
-            /* Inside auto layout */
+              /* Inside auto layout */
 
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-            height: 57px;
-
-            background: linear-gradient(0deg, #fac30f, #fac30f),
-              linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+              flex: none;
+              order: 0;
+              flex-grow: 0;
+              height: 57px;
+              margin-top: 50px;
+              background: linear-gradient(0deg, #fac30f, #fac30f),
+                linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
+              box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            }
           }
         }
         .right-side-wrapper {
@@ -1873,7 +1867,7 @@
           display: flex;
           flex-direction: column;
           flex-wrap: wrap;
-          width: 40%;
+          width: 50%;
           margin: 0rem;
           .point-wrapper {
             display: flex;

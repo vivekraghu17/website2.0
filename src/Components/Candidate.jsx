@@ -6,6 +6,8 @@ import guyTeaching from "../Assets/guy-teaching.png";
 import { Button } from "@mui/material";
 import DoneIcon from "@mui/icons-material/Done";
 import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
+import ReactElasticCarousel from "react-elastic-carousel";
+import BootcampCarousel from "./Reusables/BootcampCarousel";
 const data = [
   {
     key: "1",
@@ -45,6 +47,7 @@ const howWeDoIt = [
     body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut.",
   },
 ];
+
 export default function Candidate() {
   return (
     <div>
@@ -59,7 +62,7 @@ export default function Candidate() {
           </div>
           <Button className={styles["join-today-btn"]}>Join Today</Button>
         </div>
-
+        <BootcampCarousel />
         <div className={styles["benefit-1-section"]}>
           <div className={styles["left-side-images"]}>
             <div className={styles["blue-background"]}></div>
