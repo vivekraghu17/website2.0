@@ -653,7 +653,7 @@
     flex-direction: column;
     .main-banner {
       background: url("../Assets/bootcamp-mobile.png");
-      height: 600px;
+      height: 800px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -671,7 +671,7 @@
         font-family: "Libre Baskerville";
         font-style: normal;
         font-weight: 700;
-        font-size: 64px;
+        font-size: 60px;
         line-height: 68px;
         /* identical to box height, or 106% */
         margin-left: 0px;
@@ -724,7 +724,7 @@
         color: #ffffff;
 
         /* Inside auto layout */
-
+        border-radius: 0;
         flex: none;
         order: 0;
         flex-grow: 0;
@@ -1221,7 +1221,7 @@
               background: linear-gradient(0deg, #fac30f, #fac30f),
                 linear-gradient(0deg, #fac30f, #fac30f), #fac30f;
               box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-              border-radius: 28px;
+              border-radius: 0px;
             }
           }
         }
