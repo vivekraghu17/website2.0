@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website2.0/static/css/main.41349ba4.css",
-    "main.js": "/website2.0/static/js/main.135cc925.js",
+    "main.css": "/website2.0/static/css/main.43041a52.css",
+    "main.js": "/website2.0/static/js/main.b00efdca.js",
     "static/js/787.0b8291f7.chunk.js": "/website2.0/static/js/787.0b8291f7.chunk.js",
     "static/media/candidatebanner.png": "/website2.0/static/media/candidatebanner.d8809cab8ad6c1b95724.png",
     "static/media/bootcampbanner.png": "/website2.0/static/media/bootcampbanner.b13fa3c0e018d6543426.png",
@@ -22,12 +22,12 @@
     "static/media/forgot-password-banner.png": "/website2.0/static/media/forgot-password-banner.8a7c8d0debe2c587dbac.png",
     "static/media/home-banner.png": "/website2.0/static/media/home-banner.1aff5adc811e7a757069.png",
     "index.html": "/website2.0/index.html",
-    "main.41349ba4.css.map": "/website2.0/static/css/main.41349ba4.css.map",
-    "main.135cc925.js.map": "/website2.0/static/js/main.135cc925.js.map",
+    "main.43041a52.css.map": "/website2.0/static/css/main.43041a52.css.map",
+    "main.b00efdca.js.map": "/website2.0/static/js/main.b00efdca.js.map",
     "787.0b8291f7.chunk.js.map": "/website2.0/static/js/787.0b8291f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41349ba4.css",
-    "static/js/main.135cc925.js"
+    "static/css/main.43041a52.css",
+    "static/js/main.b00efdca.js"
   ]
 }
