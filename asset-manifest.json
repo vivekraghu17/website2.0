@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website2.0/static/css/main.03b9d175.css",
-    "main.js": "/website2.0/static/js/main.96e1972a.js",
+    "main.css": "/website2.0/static/css/main.41349ba4.css",
+    "main.js": "/website2.0/static/js/main.135cc925.js",
     "static/js/787.0b8291f7.chunk.js": "/website2.0/static/js/787.0b8291f7.chunk.js",
     "static/media/candidatebanner.png": "/website2.0/static/media/candidatebanner.d8809cab8ad6c1b95724.png",
     "static/media/bootcampbanner.png": "/website2.0/static/media/bootcampbanner.b13fa3c0e018d6543426.png",
@@ -16,15 +16,18 @@
     "static/media/google-logo-colors.png": "/website2.0/static/media/google-logo-colors.eeb1008588b4a8cd8eca.png",
     "static/media/404notfound.png": "/website2.0/static/media/404notfound.0db5c025c973f8b63899.png",
     "static/media/contactusimage.png": "/website2.0/static/media/contactusimage.571e8fe888f4f26f74c4.png",
+    "static/media/user1.png": "/website2.0/static/media/user1.3bee7cb89356843c15c2.png",
+    "static/media/user3.png": "/website2.0/static/media/user3.e774b03d5987d39d1abe.png",
+    "static/media/user2.png": "/website2.0/static/media/user2.4ae204d9ec8c642dc61c.png",
     "static/media/forgot-password-banner.png": "/website2.0/static/media/forgot-password-banner.8a7c8d0debe2c587dbac.png",
     "static/media/home-banner.png": "/website2.0/static/media/home-banner.1aff5adc811e7a757069.png",
     "index.html": "/website2.0/index.html",
-    "main.03b9d175.css.map": "/website2.0/static/css/main.03b9d175.css.map",
-    "main.96e1972a.js.map": "/website2.0/static/js/main.96e1972a.js.map",
+    "main.41349ba4.css.map": "/website2.0/static/css/main.41349ba4.css.map",
+    "main.135cc925.js.map": "/website2.0/static/js/main.135cc925.js.map",
     "787.0b8291f7.chunk.js.map": "/website2.0/static/js/787.0b8291f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03b9d175.css",
-    "static/js/main.96e1972a.js"
+    "static/css/main.41349ba4.css",
+    "static/js/main.135cc925.js"
   ]
 }
