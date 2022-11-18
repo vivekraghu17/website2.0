@@ -3,7 +3,7 @@ import styles from "../Stylesheets/home.module.scss";
 import Carousel from "react-elastic-carousel";
 import Button from "@mui/material/Button";
 import StudentOption from "./Reusables/StudentOption";
-import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
+
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import homeBanner from "../Assets/banner.png";
@@ -12,6 +12,8 @@ import BootcampOption from "./Reusables/BootcampOption";
 import user1 from "../Assets/user1.png";
 import user2 from "../Assets/user2.png";
 import user3 from "../Assets/user3.png";
+import JoinTodayBanner from "./Reusables/JoinTodayBanner";
+import "../Stylesheets/HomeCarouselStyles.scss";
 
 const optionView = [
   {
@@ -153,7 +155,6 @@ export default function Home() {
     <div className={styles["main-div"]}>
       <div className={styles["home-banner"]}>
         <div className={styles["header-texts"]}>
-          <div className={styles["help-text"]}>We are helping you</div>
           <div className={styles["launch-text"]}>
             Launch Your Career in Tech
           </div>
@@ -214,14 +215,17 @@ export default function Home() {
           <div className={styles["heading"]}>What our Candidates say</div>
         </div>
         <div className={styles["review-wrapper"]} id="cardmap" ref={ref}>
-          <Carousel breakPoints={breakPoints}>
+          <Carousel
+            breakPoints={breakPoints}
+            className={styles["carousel-styles"]}
+          >
             {candidateReviews.map((item, key) => {
               return (
                 <div className={styles["wrapper"]} key={key}>
-                  <div className={styles["user-image"]}>
-                    <img src={item.image} alt="user" />
-                  </div>
                   <div className={styles["card"]} key={key}>
+                    <div className={styles["user-image"]}>
+                      <img src={item.image} alt="user" />
+                    </div>
                     <div className={styles["review"]}>{item.review}</div>
                     <div className={styles["line"]}></div>
                     <div className={styles["user-info"]}>
@@ -238,11 +242,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles["bottom-section"]}>
-        <img
-          src={talkToSpecialistBanner}
-          alt="banner"
-          className={styles["specialist-banner"]}
-        />
+        <JoinTodayBanner />
         <div className={styles["frequently-asked-section"]}>
           <div className={styles["heading"]}>Frequently Asked Questions ?</div>
           <div className={styles["sub-heading"]}>

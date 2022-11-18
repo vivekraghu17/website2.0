@@ -8,13 +8,14 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-
+    justify-content: space-evenly;
+    align-items: center;
     .header-texts {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       margin-left: 30px;
+      height: 500px;
       .help-text {
         width: 222px;
         height: 17px;
@@ -94,7 +95,7 @@
       justify-content: center;
       align-items: center;
       .guy-with-laptop {
-        width: 550px;
+        width: 500px;
         height: 514px;
       }
     }
@@ -229,7 +230,7 @@
     background: #4285f4;
     display: flex;
     flex-direction: column;
-    height: 580px;
+    height: 700px;
     padding-bottom: 32px;
     padding-top: 32px;
     .header-wrapper {
@@ -262,23 +263,21 @@
       height: max-content;
       scroll-behavior: smooth;
       margin-top: 50px;
+      padding: 0 2rem;
 
       .wrapper {
         display: flex;
         flex-direction: column;
-        .user-image {
-          position: absolute;
-          top: -6%;
-        }
+
         .card {
           box-sizing: border-box;
-          margin-left: 20px;
+          margin-left: 10px;
           left: 0%;
           right: 0%;
           top: 12.79%;
           bottom: 0%;
-          height: 345px;
-          min-width: 322px;
+          min-height: 400px;
+          max-width: 600px;
           background: #ffffff;
           border: 1px solid #d8d8d8;
           border-radius: 12px;
@@ -286,6 +285,10 @@
           flex-direction: column;
           justify-content: space-evenly;
           margin-top: 60px;
+          .user-image {
+            display: flex;
+            height: 133px;
+          }
           .review {
             font-family: "Roboto";
             font-style: normal;
@@ -298,17 +301,18 @@
 
             color: #314150;
             margin: 2rem;
+            margin-top: -1rem;
           }
           .line {
-            margin: 1rem;
             width: 90%;
-            height: 47px;
             border-bottom: 1px solid #f2f2f2;
           }
           .user-info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 2rem;
           }
           .username {
-            margin-top: 50px;
             left: 6.15%;
             right: 61.54%;
             top: 73.11%;
@@ -322,10 +326,9 @@
             /* identical to box height */
 
             color: #314150;
-            margin: 2rem;
+            margin-bottom: 5px;
           }
           .designation {
-            margin-top: 20px;
             left: 6.15%;
             right: 64.87%;
             top: 82.62%;
@@ -339,14 +342,13 @@
             /* identical to box height */
 
             color: #646464;
-            margin: 2rem;
           }
         }
       }
     }
   }
   .bottom-section {
-    height: 1400px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -355,6 +357,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin: 5rem;
       .heading {
         width: 770px;
         height: 80px;
@@ -712,15 +715,14 @@
       background: #4285f4;
       display: flex;
       flex-direction: column;
-      height: 600px;
+      height: 700px;
+      padding-bottom: 32px;
+      padding-top: 32px;
       .header-wrapper {
         justify-content: center;
         align-items: center;
         display: flex;
         .heading {
-          width: 419px;
-          height: 45px;
-
           font-family: "Libre Baskerville";
           font-style: normal;
           font-weight: 700;
@@ -735,12 +737,6 @@
           text-transform: capitalize;
 
           color: #ffffff;
-
-          /* Inside auto layout */
-
-          flex: none;
-          order: 0;
-          flex-grow: 0;
           margin: 1.5rem;
         }
       }
@@ -749,25 +745,24 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        overflow-x: hidden;
+        height: max-content;
         scroll-behavior: smooth;
         margin-top: 50px;
+        padding: 0 2rem;
+
         .wrapper {
           display: flex;
           flex-direction: column;
-          .user-image {
-            position: absolute;
-            top: -6%;
-          }
+
           .card {
             box-sizing: border-box;
-            margin-left: 20px;
+            margin-left: 10px;
             left: 0%;
             right: 0%;
             top: 12.79%;
             bottom: 0%;
-            height: 300px;
-            min-width: 400px;
+            min-height: 400px;
+            max-width: 600px;
             background: #ffffff;
             border: 1px solid #d8d8d8;
             border-radius: 12px;
@@ -775,6 +770,10 @@
             flex-direction: column;
             justify-content: space-evenly;
             margin-top: 60px;
+            .user-image {
+              display: flex;
+              height: 133px;
+            }
             .review {
               font-family: "Roboto";
               font-style: normal;
@@ -787,15 +786,18 @@
 
               color: #314150;
               margin: 2rem;
+              margin-top: -1rem;
             }
             .line {
-              margin: 1rem;
               width: 90%;
-              height: 47px;
               border-bottom: 1px solid #f2f2f2;
             }
+            .user-info {
+              display: flex;
+              flex-direction: column;
+              margin-left: 2rem;
+            }
             .username {
-              margin-top: 50px;
               left: 6.15%;
               right: 61.54%;
               top: 73.11%;
@@ -809,10 +811,9 @@
               /* identical to box height */
 
               color: #314150;
-              margin: 2rem;
+              margin-bottom: 5px;
             }
             .designation {
-              margin-top: 20px;
               left: 6.15%;
               right: 64.87%;
               top: 82.62%;
@@ -826,7 +827,6 @@
               /* identical to box height */
 
               color: #646464;
-              margin: 2rem;
             }
           }
         }
@@ -1256,13 +1256,12 @@
         margin-top: 50px;
         .card {
           box-sizing: border-box;
-          margin-left: 20px;
+          margin-left: 10px;
           left: 0%;
           right: 0%;
           top: 12.79%;
           bottom: 0%;
           height: 300px;
-          min-width: 400px;
           background: #ffffff;
           border: 1px solid #d8d8d8;
           border-radius: 12px;
@@ -1777,13 +1776,12 @@
         width: 100% !important;
         .card {
           box-sizing: border-box;
-          margin-left: 0px;
+          margin-left: 10px;
           left: 0%;
           right: 0%;
           top: 12.79%;
           bottom: 0%;
           height: 300px;
-          min-width: 322px;
           background: #ffffff;
           border: 1px solid #d8d8d8;
           border-radius: 12px;

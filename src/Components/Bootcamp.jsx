@@ -5,7 +5,8 @@ import ladyWithLaptop from "../Assets/lady-with-laptop.png";
 import guyTeaching from "../Assets/guy-teaching.png";
 import { Button } from "@mui/material";
 import DoneIcon from "@mui/icons-material/Done";
-import talkToSpecialistBanner from "../Assets/talk-to-specialist-banner.png";
+import JoinTodayBanner from "../Components/Reusables/JoinTodayBanner";
+
 const data = [
   {
     key: "1",
@@ -177,13 +178,9 @@ export default function Bootcamp() {
               })}
             </div>
           </div>
-        </div>
-        <div className={styles["bottom-section"]}>
-          <img
-            src={talkToSpecialistBanner}
-            alt="talk to specialist"
-            className={styles["specialist-banner"]}
-          />
+          <div className={styles["join-today-banner"]}>
+            <JoinTodayBanner />
+          </div>
         </div>
       </div>
     </div>

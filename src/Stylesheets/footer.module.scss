@@ -50,9 +50,10 @@
   .social-media-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
     > img {
-      width: 33px;
-      height: 33px;
+      width: 35px;
+      height: 35px;
       margin-left: 10px;
     }
   }

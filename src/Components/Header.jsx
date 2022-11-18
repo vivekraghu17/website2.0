@@ -88,7 +88,7 @@ export default function Header() {
             handleOpen("signup");
           }}
         >
-          Register
+          Apply Now
         </Button>
       </div>
       <div className={styles["header-menu"]}>

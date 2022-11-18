@@ -2,6 +2,7 @@ import React from "react";
 import ReactElasticCarousel from "react-elastic-carousel";
 import { Button } from "@mui/material";
 import styles from "../../Stylesheets/bootcampCarousel.module.scss";
+import "../../Stylesheets/BootCampCarouselStyles.scss";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },

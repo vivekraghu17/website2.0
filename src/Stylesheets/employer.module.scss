@@ -456,7 +456,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-
+    justify-content: center;
     .header-wrapper {
       display: flex;
       flex-direction: column;
@@ -508,7 +508,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-
+      align-items: center;
       .left-side-wrapper {
         display: flex;
         flex-direction: column;
@@ -637,13 +637,9 @@
         }
       }
     }
-  }
-  .bottom-section {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    .specialist-banner {
-      width: 100%;
+    .join-today-banner {
+      display: flex;
+      justify-content: center;
     }
   }
 }

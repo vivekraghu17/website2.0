@@ -18,6 +18,14 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 1rem;
+    &::after {
+      content: "";
+      background: url("../Assets/leftCurls.svg");
+    }
+    &::before {
+      content: "";
+      background: url("../Assets/rightCurls.svg");
+    }
     .title {
       height: 43px;
 
@@ -44,6 +52,7 @@
       text-transform: capitalize;
 
       color: #ffffff;
+      padding: 0 6rem;
     }
 
     .explore-btn {

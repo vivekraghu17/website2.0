@@ -1,0 +1,84 @@
+.main-div {
+  margin-top: 50px;
+  height: 268px;
+  left: 0px;
+  top: 0px;
+  width: 80%;
+  background: #4285f4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .left-side-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .banner-header {
+      height: 43px;
+      left: 52px;
+      top: 49px;
+
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 36px;
+      line-height: 43px;
+      /* identical to box height, or 119% */
+
+      color: #ffffff;
+    }
+    .banner-sub-texts {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.2px;
+      text-transform: capitalize;
+
+      color: #ffffff;
+    }
+    .join-today-btn {
+      background: #ffffff;
+      /* 3 */
+
+      box-shadow: 0px 67.1144px 109.061px rgba(0, 0, 0, 0.05);
+      border-radius: 5px;
+      width: 222px;
+      height: 50px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 14px;
+      /* identical to box height, or 70% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #222222;
+    }
+  }
+  .right-side-image {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-div {
+    width: 70%;
+    display: none;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .main-div {
+    width: 100%;
+    display: none;
+  }
+}
