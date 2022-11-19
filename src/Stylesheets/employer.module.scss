@@ -11,6 +11,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    a {
+      text-decoration: none;
+    }
     .banner-header {
       width: 441px;
       height: 68px;
@@ -109,10 +112,9 @@
           flex-direction: row;
           align-items: flex-start;
           padding: 20px 27px;
-          gap: 10px;
 
           width: 110px;
-          height: 43px;
+          height: 0px;
 
           font-family: "Roboto";
           font-style: normal;
@@ -142,6 +144,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 75%;
+        margin: 1rem;
         .points {
           display: flex;
           flex-direction: column;
@@ -225,7 +228,7 @@
           gap: 10px;
 
           width: 110px;
-          height: 43px;
+          height: 0px;
 
           font-family: "Roboto";
           font-style: normal;
@@ -322,8 +325,8 @@
       justify-content: center;
       align-items: flex-start;
       .guy-teaching {
-        width: 491px;
-        height: 300px;
+        width: 523px;
+        height: 367px;
       }
     }
   }
@@ -360,7 +363,7 @@
           gap: 10px;
 
           width: 110px;
-          height: 43px;
+          height: 0px;
 
           font-family: "Roboto";
           font-style: normal;
@@ -390,6 +393,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 75%;
+        margin: 1rem;
         .points {
           display: flex;
           flex-direction: column;
@@ -456,11 +460,12 @@
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    justify-content: center;
+    height: max-content;
     .header-wrapper {
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin: 1rem;
       .header {
         width: 100%;
         height: 45px;
@@ -491,7 +496,7 @@
         height: 68px;
         left: 288px;
         top: 2314.24px;
-
+        margin: 1rem;
         font-family: "Roboto";
         font-style: normal;
         font-weight: 400;
@@ -507,12 +512,15 @@
     .information-wrapper {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
+      //justify-content: center;
+      a {
+        text-decoration: none;
+      }
       .left-side-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        margin-left: 25%;
         .heading {
           width: 496px;
           height: 204px;
@@ -582,7 +590,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 50%;
+        width: 30%;
         margin: 1rem;
         .point-wrapper {
           display: flex;
@@ -604,12 +612,20 @@
             color: #111111;
             .pointer {
               height: 25px;
+              width: 25px;
               left: 52.49%;
               right: 45.1%;
               top: 2461px;
               color: white;
               background: rgba(22, 199, 154, 0.9);
-              border-radius: 3px;
+              clip-path: polygon(
+                50% 0%,
+                95% 25%,
+                95% 75%,
+                50% 100%,
+                5% 75%,
+                5% 25%
+              );
             }
             .point-header {
               margin-left: 1rem;
@@ -630,17 +646,17 @@
 
             /* Medium Dark */
             margin: 1rem;
-
-            margin-left: 1rem;
+            padding-left: 1.5rem;
             color: #646464;
           }
         }
       }
     }
-    .join-today-banner {
-      display: flex;
-      justify-content: center;
-    }
+  }
+  .join-today-banner {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -729,7 +745,7 @@
     .benefit-1-section {
       display: flex;
       flex-direction: column;
-      margin-top: 0px;
+      margin: 1rem;
       .left-side-images {
         .ladywithlaptop {
           width: 100%;
@@ -742,7 +758,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 0%;
+        margin: 1rem;
         width: 100%;
         .header-wrapper {
           .header {
@@ -753,7 +769,6 @@
             gap: 10px;
 
             width: 110px;
-            height: 43px;
 
             font-family: "Roboto";
             font-style: normal;
@@ -850,7 +865,7 @@
       flex-direction: column-reverse;
       margin-top: 0px;
       margin-left: 0px;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
       width: 100%;
       .left-side-information {
@@ -868,7 +883,6 @@
             gap: 10px;
             margin-top: 0px;
             width: 110px;
-            height: 43px;
 
             font-family: "Roboto";
             font-style: normal;
@@ -961,6 +975,7 @@
         }
       }
       .right-side-images {
+        margin: 1rem;
         .guy-teaching {
           margin-top: 50px;
           position: relative;
@@ -975,7 +990,9 @@
       display: flex;
       flex-direction: column;
       margin-top: 30px;
+      margin: 1rem;
       .left-side-images {
+        margin-top: 75px;
         .ladywithlaptop {
           width: 100%;
           height: 100%;
@@ -989,6 +1006,7 @@
         align-items: center;
         margin-left: 0%;
         width: 100%;
+        margin: 1rem;
         .header-wrapper {
           .header {
             display: flex;
@@ -998,7 +1016,6 @@
             gap: 10px;
 
             width: 110px;
-            height: 43px;
 
             font-family: "Roboto";
             font-style: normal;
@@ -1095,7 +1112,7 @@
       flex-direction: column;
       margin-top: 30px;
       background: #dfe7f6;
-      height: 1300px;
+      height: max-content;
       justify-content: space-around;
       .header-wrapper {
         display: flex;
@@ -1151,6 +1168,9 @@
         justify-content: center;
         margin-left: 0px;
         .left-side-wrapper {
+          margin-left: 0%;
+          background: #4285f4;
+          margin-top: 100px;
           .heading {
             width: 100%;
             height: 204px;
@@ -1169,7 +1189,7 @@
             letter-spacing: -0.04em;
             text-transform: capitalize;
 
-            color: #111111;
+            color: white;
           }
           .sub-heading {
             width: 100%;
@@ -1184,12 +1204,12 @@
             line-height: 30px;
             /* or 188% */
             margin-top: 50px;
-            color: #314150;
+            color: white;
           }
           .button-wrapper {
             display: flex;
             justify-content: center;
-            margin-top: 50px;
+            margin: 5rem;
             .join-today-btn {
               display: flex;
               flex-direction: row;
@@ -1247,7 +1267,7 @@
 
               color: #111111;
               .pointer {
-                height: 33px;
+                height: 27px;
                 left: 52.49%;
                 right: 45.1%;
                 top: 2461px;
@@ -1272,6 +1292,7 @@
               /* Medium Dark */
 
               color: #646464;
+              padding-bottom: 2rem;
             }
           }
         }
@@ -1284,7 +1305,7 @@
     }
   }
 }
-@media only screen and (min-width: 767px) and (max-width: 1100px) {
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
   .main-div {
     display: flex;
     flex-direction: column;
@@ -1396,7 +1417,7 @@
             gap: 10px;
 
             width: 110px;
-            height: 43px;
+            height: 0px;
 
             font-family: "Roboto";
             font-style: normal;
@@ -1509,7 +1530,7 @@
             gap: 10px;
 
             width: 110px;
-            height: 43px;
+            height: 0px;
 
             font-family: "Roboto";
             font-style: normal;
@@ -1606,8 +1627,8 @@
         justify-content: center;
         align-items: flex-start;
         .guy-teaching {
-          width: 391px;
-          height: 300px;
+          width: 400px;
+          height: 267px;
         }
       }
     }
@@ -1644,7 +1665,7 @@
             gap: 10px;
 
             width: 110px;
-            height: 43px;
+            height: 0px;
 
             font-family: "Roboto";
             font-style: normal;
@@ -1740,7 +1761,7 @@
       display: flex;
       flex-direction: column;
       margin-top: 30px;
-      height: 800px;
+      height: max-content;
       .header-wrapper {
         display: flex;
         flex-direction: column;
@@ -1797,9 +1818,10 @@
         .left-side-wrapper {
           display: flex;
           flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
+          justify-content: space-between;
+          align-items: flex-start;
           width: 50%;
+          margin-left: 10%;
           .heading {
             width: 396px;
             height: 204px;
@@ -1834,6 +1856,7 @@
           .button-wrapper {
             display: flex;
             justify-content: flex-start;
+            margin-top: 3rem;
             .join-today-btn {
               display: flex;
               flex-direction: row;

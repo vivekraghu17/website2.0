@@ -1,68 +1,83 @@
 import React from "react";
-import logo from "../Assets/gritly.png";
 import styles from "../Stylesheets/footer.module.scss";
-import twitter from "../Assets/twitter.png";
-import facebook from "../Assets/facebook.png";
-import instagram from "../Assets/instagram.png";
-import linkedin from "../Assets/linkedin.png";
+import logo from "../Assets/gritly.png";
 import { useNavigate } from "react-router-dom";
-const footerMenu = [
+import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+const menuOptions = [
+  {
+    key: "home",
+    label: "HOME",
+
+    route: "/",
+  },
   {
     key: "companies",
-    label: "Companies",
+    label: "COMPANIES",
+
     route: "/employer",
   },
   {
-    key: "bootcamp",
-    label: "Bootcamps",
+    key: "bootcamps",
+    label: "BOOTCAMPS",
+
     route: "/bootcamp",
   },
   {
-    key: "candidates",
-    label: "Candidates",
+    key: "candidate",
+    label: "CANDIDATE",
+
     route: "/candidate",
   },
   {
     key: "contact",
-    label: "Contact",
+    label: "CONTACT US",
+
     route: "/contactus",
   },
 ];
+
 export default function Footer() {
   const navigate = useNavigate();
   return (
     <div className={styles["main-div"]}>
-      <div className={styles["row-1"]}>
-        <img
-          src={logo}
-          alt="gritlylogo"
-          className={styles["gritly-logo"]}
-          onClick={() => {
-            window.scrollTo(0, 0);
-            navigate("/");
-          }}
-        />
-        {footerMenu.map((item, key) => {
+      <div className={styles["logo-section"]}>
+        <img src={logo} alt="gritly" className={styles["logo"]} />
+      </div>
+      <div className={styles["menu-items-section"]}>
+        {menuOptions.map((item, key) => {
           return (
             <div
+              className={styles["item"]}
               key={key}
-              className={styles["items"]}
               onClick={() => {
                 navigate(`${item.route}`);
+                window.scrollTo(0, 0);
               }}
             >
               {item.label}
             </div>
           );
         })}
-        <div className={styles["row-2"]}>
-          <span>gritly 2022 All right reserved</span>
+      </div>
+      <div className={styles["divider"]} />
+      <div className={styles["copyrights-section"]}>
+        <div className={styles["left-side-section"]}>
+          © 2022 Gritly. All rights reserved
         </div>
         <div className={styles["social-media-wrapper"]}>
-          <img src={facebook} alt="facebook" />
-          <img src={twitter} alt="twitter" />
-          <img src={linkedin} alt="linkedin" />
-          <img src={instagram} alt="instagram" />
+          <FacebookRoundedIcon sx={{ color: "white", cursor: "pointer" }} />
+          <TwitterIcon
+            sx={{ color: "white", marginLeft: "30px", cursor: "pointer" }}
+          />
+          <InstagramIcon
+            sx={{ color: "white", marginLeft: "30px", cursor: "pointer" }}
+          />
+          <LinkedInIcon
+            sx={{ color: "white", marginLeft: "30px", cursor: "pointer" }}
+          />
         </div>
       </div>
     </div>

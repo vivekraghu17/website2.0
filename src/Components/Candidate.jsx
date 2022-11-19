@@ -5,7 +5,6 @@ import ladyWithLaptop from "../Assets/lady-with-laptop.png";
 import guyTeaching from "../Assets/guy-teaching.png";
 import { Button } from "@mui/material";
 import DoneIcon from "@mui/icons-material/Done";
-import BootcampCarousel from "./Reusables/BootcampCarousel";
 import JoinTodayBanner from "../Components/Reusables/JoinTodayBanner";
 
 const data = [
@@ -24,27 +23,22 @@ const data = [
     heading: "Sit quam gravida",
     body: "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
   },
-  {
-    key: "4",
-    heading: "Elementum enim tempus",
-    body: "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
-  },
 ];
 const howWeDoIt = [
   {
     key: "1",
     header: "Explore Different roles",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut.",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
   },
   {
     key: "2",
     header: "Explore Different roles",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut.",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
   },
   {
     key: "3",
     header: "Explore Different roles",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut.",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
   },
 ];
 
@@ -60,9 +54,10 @@ export default function Candidate() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </div>
-          <Button className={styles["join-today-btn"]}>Join Today</Button>
+          <a href="http://app.gritly.us/">
+            <Button className={styles["join-today-btn"]}>Join Today</Button>
+          </a>
         </div>
-        <BootcampCarousel />
         <div className={styles["benefit-1-section"]}>
           <div className={styles["left-side-images"]}>
             <div className={styles["blue-background"]}></div>
@@ -159,7 +154,11 @@ export default function Candidate() {
                 nisi ut aliquip ex ea commodo consequat. Duis aute{" "}
               </div>
               <div className={styles["button-wrapper"]}>
-                <Button className={styles["join-today-btn"]}>Join Today</Button>
+                <a href="http://app.gritly.us/">
+                  <Button className={styles["join-today-btn"]}>
+                    Join Today
+                  </Button>
+                </a>
               </div>
             </div>
             <div className={styles["right-side-wrapper"]}>

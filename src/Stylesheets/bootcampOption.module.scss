@@ -1,7 +1,7 @@
 .root-div {
   .main-div {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     margin-top: 60px;
     align-items: center;
     .left-side-images {
@@ -24,7 +24,7 @@
       flex-wrap: wrap;
       width: 50%;
       margin-left: 50px;
-      justify-content: flex-end;
+      justify-content: flex-start;
       align-items: center;
       .info-wrapper {
         display: flex;

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../Stylesheets/studentOption.module.scss";
-import ladyWithLaptop from "../../Assets/lady-with-laptop.png";
+import studentLearning from "../../Assets/student-learning.png";
 import DoneIcon from "@mui/icons-material/Done";
 const studentInformation = [
   {
@@ -18,21 +18,6 @@ const studentInformation = [
     heading: "Tempor egestas augue",
     body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
   },
-  {
-    key: "4",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
-  },
-  {
-    key: "5",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
-  },
-  {
-    key: "6",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
-  },
 ];
 export default function StudentOption() {
   return (
@@ -40,7 +25,7 @@ export default function StudentOption() {
       <div className={styles["main-div"]}>
         <div className={styles["left-side-images"]}>
           <img
-            src={ladyWithLaptop}
+            src={studentLearning}
             className={styles["lady-with-laptop"]}
             alt="lady-with-laptop"
           />

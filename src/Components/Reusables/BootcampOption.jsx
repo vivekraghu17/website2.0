@@ -19,11 +19,6 @@ const studentInformation = [
     heading: "Tempor egestas augue",
     body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
   },
-  {
-    key: "4",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
-  },
 ];
 export default function BootcampOption() {
   return (

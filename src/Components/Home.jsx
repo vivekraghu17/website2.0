@@ -3,7 +3,7 @@ import styles from "../Stylesheets/home.module.scss";
 import Carousel from "react-elastic-carousel";
 import Button from "@mui/material/Button";
 import StudentOption from "./Reusables/StudentOption";
-
+import { useNavigate } from "react-router-dom";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import homeBanner from "../Assets/banner.png";
@@ -14,6 +14,7 @@ import user2 from "../Assets/user2.png";
 import user3 from "../Assets/user3.png";
 import JoinTodayBanner from "./Reusables/JoinTodayBanner";
 import "../Stylesheets/HomeCarouselStyles.scss";
+import Rating from "@mui/material/Rating";
 
 const optionView = [
   {
@@ -135,6 +136,7 @@ export default function Home() {
   const [options, setOptions] = React.useState(optionView);
   const [menu, setMenu] = React.useState("employer");
   const ref = React.useRef(null);
+  const navigate = useNavigate();
   const handleOption = (key) => {
     options.forEach((item) => {
       if (item.key === key) item.selected = true;
@@ -163,8 +165,10 @@ export default function Home() {
             access to high paying jobs in the fastest growing industry globally
           </div>
           <div className={styles["apply-section"]}>
-            <Button className={styles["apply-now-btn"]}>Apply Now</Button>
-            <a href="google.com" className={styles["hire-students"]}>
+            <a href="http://app.gritly.us/">
+              <Button className={styles["apply-now-btn"]}>Apply Now</Button>
+            </a>
+            <a href="http://app.gritly.us" className={styles["hire-students"]}>
               Hire Students
             </a>
           </div>
@@ -207,7 +211,16 @@ export default function Home() {
           {menu === "students" && <StudentOption />}
         </div>
         <div className={styles["learn-more-section"]}>
-          <Button className={styles["learn-more-btn"]}>Learn More</Button>
+          <Button
+            className={styles["learn-more-btn"]}
+            onClick={() => {
+              menu === "students"
+                ? navigate(`/candidate`)
+                : navigate(`/${menu}`);
+            }}
+          >
+            Learn More
+          </Button>
         </div>
       </div>
       <div className={styles["candidate-review-section"]}>
@@ -228,10 +241,17 @@ export default function Home() {
                     </div>
                     <div className={styles["review"]}>{item.review}</div>
                     <div className={styles["line"]}></div>
-                    <div className={styles["user-info"]}>
-                      <div className={styles["username"]}>{item.username}</div>
-                      <div className={styles["designation"]}>
-                        {item.designation}
+                    <div className={styles["user-info-wrapper"]}>
+                      <div className={styles["user-info"]}>
+                        <div className={styles["username"]}>
+                          {item.username}
+                        </div>
+                        <div className={styles["designation"]}>
+                          {item.designation}
+                        </div>
+                      </div>
+                      <div className={styles["rating"]}>
+                        <Rating name="read-only" value={5} readOnly />
                       </div>
                     </div>
                   </div>

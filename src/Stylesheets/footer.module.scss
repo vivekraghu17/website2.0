@@ -1,189 +1,49 @@
 .main-div {
   display: flex;
   flex-direction: column;
-  background: #0e1555;
-  .row-1 {
+  background-color: #0e1555;
+
+  .logo-section {
+    display: flex;
+    justify-content: center;
+    .logo {
+      width: 150px;
+    }
+  }
+  .menu-items-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+    .item {
+      margin-left: 40px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .divider {
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid grey;
+  }
+  .copyrights-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    .items {
+    margin: 1rem;
+    .left-side-section {
       color: white;
-      align-items: center;
-      margin-left: 0px;
-      //font-family: "Roboto";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 23px;
-      letter-spacing: -0.02em;
-      cursor: pointer;
-      color: #ffffff;
-
-      /* Inside auto layout */
-      display: none;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
     }
-    .row-2 {
-      justify-content: center;
-      color: white;
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 130%;
-      /* or 18px */
-      display: flex;
-      align-items: center;
-      letter-spacing: 0.008em;
-
-      color: #ffffff;
-
-      /* Inside auto layout */
-      text-align: center;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-    }
-  }
-  .social-media-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    > img {
-      width: 35px;
-      height: 35px;
-      margin-left: 10px;
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .main-div {
-    display: flex;
-    flex-direction: column;
-    background: #0e1555;
-    .row-1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      .gritly-logo {
-        width: 100px;
-        height: 50px;
-      }
-      .items {
-        color: white;
-        align-items: center;
-        margin-left: 0px;
-        //font-family: "Roboto";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 23px;
-        letter-spacing: -0.02em;
-        cursor: pointer;
-        color: #ffffff;
-        margin-top: 10px;
-        /* Inside auto layout */
-        display: flex;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-      }
-      .social-media-wrapper {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        left: 80%;
-        > img {
-          width: 33px;
-          height: 33px;
-          margin-left: 10px;
-          margin-top: 10px;
-        }
-      }
-    }
-    .row-2 {
-      justify-content: center;
-      color: white;
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 130%;
-      /* or 18px */
-
-      letter-spacing: 0.008em;
-
-      color: #ffffff;
-
-      /* Inside auto layout */
-      text-align: center;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-    }
-  }
-}
-@media screen and (min-width: 767px) and (max-width: 900px) {
-  .main-div {
-    display: flex;
-    flex-direction: column;
-    background: #0e1555;
-    .row-1 {
+    .social-media-wrapper {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
-      .items {
-        color: white;
-        align-items: center;
-        margin-left: 0px;
-        //font-family: "Roboto";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 23px;
-        letter-spacing: -0.02em;
-        cursor: pointer;
-        color: #ffffff;
-        width: 20px;
-        /* Inside auto layout */
-        display: none;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-      }
-      .social-media-wrapper {
-        display: flex;
-        flex-direction: row;
-        display: flex;
-        > img {
-          width: 33px;
-          height: 33px;
-          margin-left: 10px;
-        }
-      }
     }
-    .row-2 {
-      justify-content: center;
-      color: white;
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 130%;
-      /* or 18px */
-
-      letter-spacing: 0.008em;
-
-      color: #ffffff;
-
-      /* Inside auto layout */
-      text-align: center;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .main-div {
+    .menu-items-section {
+      display: none;
     }
   }
 }
