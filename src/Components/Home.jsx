@@ -102,7 +102,7 @@ const candidateReviews = [
 const faq = [
   {
     key: "1",
-    question: "Laborum magna nulla",
+    question: "Voluptate exercitation incididunt aliquip deserunt.",
     answer:
       "Nulla Lorem mollit cupidatat irure. Voluptate exercitation incididunt aliquip deserunt. Nulla Lorem mollit cupidatat irure.",
   },
@@ -165,10 +165,10 @@ export default function Home() {
             access to high paying jobs in the fastest growing industry globally
           </div>
           <div className={styles["apply-section"]}>
-            <a href="http://app.gritly.us/">
+            <a href="https://app.gritly.us/">
               <Button className={styles["apply-now-btn"]}>Apply Now</Button>
             </a>
-            <a href="http://app.gritly.us" className={styles["hire-students"]}>
+            <a href="https://app.gritly.us" className={styles["hire-students"]}>
               Hire Students
             </a>
           </div>

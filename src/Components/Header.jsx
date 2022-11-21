@@ -52,7 +52,19 @@ export default function Header() {
   return (
     <div className={styles["main-div"]}>
       <div className={styles["logo-section"]}>
-        <img src={Logo} alt="gritly-logo" className={styles["logo-image"]} />
+        <img
+          src={Logo}
+          alt="gritly-logo"
+          className={styles["logo-image"]}
+          onClick={() => {
+            navigate("/");
+            menu.forEach((item) => {
+              if (item.key === "home") item.selected = true;
+              else item.selected = false;
+            });
+            setMenu(menu);
+          }}
+        />
       </div>
       <div className={styles["menu-section"]}>
         {menu.map((item, key) => {
@@ -81,15 +93,11 @@ export default function Header() {
         >
           Login
         </Button>
-        <Button
-          className={styles["register-btn"]}
-          variant="outlined"
-          onClick={() => {
-            handleOpen("signup");
-          }}
-        >
-          Apply Now
-        </Button>
+        <a href="https://app.gritly.us">
+          <Button className={styles["register-btn"]} variant="outlined">
+            Apply Now
+          </Button>
+        </a>
       </div>
       <div className={styles["header-menu"]}>
         <HeaderMenu />

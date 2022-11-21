@@ -274,10 +274,6 @@
         .card {
           box-sizing: border-box;
           margin-left: 10px;
-          left: 0%;
-          right: 0%;
-          top: 12.79%;
-          bottom: 0%;
           min-height: 400px;
           max-width: 600px;
           background: #ffffff;
@@ -930,7 +926,7 @@
                 flex: none;
                 order: 0;
                 flex-grow: 0;
-                height: 70px;
+                height: 20px;
                 padding: 0.5rem;
               }
               .content {
@@ -1418,7 +1414,7 @@
                 flex: none;
                 order: 0;
                 flex-grow: 0;
-                height: 70px;
+                height: 20px;
                 padding: 0.5rem;
               }
               .content {
@@ -1934,7 +1930,7 @@
                 font-family: "Roboto";
                 font-style: normal;
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 23px;
 
                 color: #314150;
@@ -1944,9 +1940,11 @@
                 flex: none;
                 order: 0;
                 flex-grow: 0;
-                height: 70px;
+                height: 20px;
                 margin: 1rem;
                 text-align: center;
+                display: flex;
+                align-items: center;
               }
               .content {
                 height: 154px;

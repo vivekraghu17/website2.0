@@ -44,7 +44,15 @@ export default function Footer() {
   return (
     <div className={styles["main-div"]}>
       <div className={styles["logo-section"]}>
-        <img src={logo} alt="gritly" className={styles["logo"]} />
+        <img
+          src={logo}
+          alt="gritly"
+          className={styles["logo"]}
+          onClick={() => {
+            navigate("/");
+            window.scrollTo(0, 0);
+          }}
+        />
       </div>
       <div className={styles["menu-items-section"]}>
         {menuOptions.map((item, key) => {

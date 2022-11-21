@@ -54,7 +54,7 @@ export default function Candidate() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </div>
-          <a href="http://app.gritly.us/">
+          <a href="https://app.gritly.us/">
             <Button className={styles["join-today-btn"]}>Join Today</Button>
           </a>
         </div>
@@ -154,7 +154,7 @@ export default function Candidate() {
                 nisi ut aliquip ex ea commodo consequat. Duis aute{" "}
               </div>
               <div className={styles["button-wrapper"]}>
-                <a href="http://app.gritly.us/">
+                <a href="https://app.gritly.us/">
                   <Button className={styles["join-today-btn"]}>
                     Join Today
                   </Button>

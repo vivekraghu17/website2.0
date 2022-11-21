@@ -9,6 +9,7 @@
     align-items: center;
     .logo-image {
       align-items: center;
+      cursor: pointer;
     }
   }
   .menu-section {
@@ -36,6 +37,9 @@
     display: flex;
     flex-direction: row;
     margin-left: 50px;
+    a {
+      text-decoration: none;
+    }
     .login-btn {
       display: flex;
       flex-direction: row;
