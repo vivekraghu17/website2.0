@@ -65,7 +65,7 @@ export default function Footer() {
       <div className={styles["divider"]} />
       <div className={styles["copyrights-section"]}>
         <div className={styles["left-side-section"]}>
-          © 2022 Gritly. All rights reserved
+          © {new Date().getFullYear()} Gritly. All rights reserved
         </div>
         <div className={styles["social-media-wrapper"]}>
           <FacebookRoundedIcon sx={{ color: "white", cursor: "pointer" }} />
