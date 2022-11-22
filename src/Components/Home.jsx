@@ -128,8 +128,11 @@ const faq = [
 ];
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
+  { width: 320, itemsToShow: 1 },
+  { width: 375, itemsToShow: 1 },
+  { width: 425, itemsToShow: 1 },
   { width: 550, itemsToShow: 1 },
-  { width: 768, itemsToShow: 1 },
+  { width: 769, itemsToShow: 1 },
   { width: 1000, itemsToShow: 2, itemsToScroll: 2 },
   { width: 1200, itemsToShow: 3, itemsToScroll: 3 },
 ];

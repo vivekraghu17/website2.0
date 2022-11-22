@@ -26,6 +26,16 @@
 }
 @media only screen and (max-width: 767px) {
   .rec-carousel-wrapper {
+    // .rec-slider-container {
+    //   margin-left: -1px;
+    // }
+    .rec-arrow {
+      height: 40px;
+      min-width: 40px;
+      width: 40px;
+      font-size: 1.3em;
+      line-height: 40px;
+    }
     .rec-arrow-left,
     .rec-arrow-right {
       box-shadow: none;
@@ -39,19 +49,16 @@
     .rec-arrow-left {
       position: absolute;
       left: 10%;
-      z-index: 0;
+      z-index: 1;
       margin-left: -2rem;
     }
     .rec-arrow-right {
       position: absolute;
       right: 0;
-      margin-right: 2rem;
+      margin-right: 0rem;
     }
     .rec-pagination {
       display: none;
-    }
-    .rec-item-wrapper {
-      width: 300px !important;
     }
   }
 }

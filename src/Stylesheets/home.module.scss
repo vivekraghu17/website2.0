@@ -333,7 +333,7 @@
             .user-info {
               display: flex;
               flex-direction: column;
-              margin-left: 2rem;
+              margin-left: 1rem;
               .username {
                 left: 6.15%;
                 right: 61.54%;
@@ -509,19 +509,13 @@
       width: 100%;
       .heading {
         height: 80px;
-        left: 298px;
-        top: 2796px;
-
         font-family: "Libre Baskerville";
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 80px;
-        /* identical to box height, or 222% */
-
         text-align: center;
         letter-spacing: -0.04em;
-
         color: #111111;
         margin: 1rem;
       }
@@ -918,19 +912,13 @@
         .heading {
           width: 770px;
           height: 80px;
-          left: 298px;
-          top: 2796px;
-
           font-family: "Libre Baskerville";
           font-style: normal;
           font-weight: 700;
           font-size: 36px;
           line-height: 80px;
-          /* identical to box height, or 222% */
-
           text-align: center;
           letter-spacing: -0.04em;
-
           color: #111111;
         }
         .sub-heading {
@@ -1134,17 +1122,14 @@
         .heading {
           width: 952px;
           height: 45px;
-
           font-family: "Libre Baskerville";
           font-style: normal;
           font-weight: 700;
           font-size: 36px;
           line-height: 45px;
-          /* identical to box height */
           text-align: center;
           letter-spacing: 0px;
           text-transform: capitalize;
-
           color: #212121;
         }
 
@@ -1843,8 +1828,8 @@
         justify-content: flex-start;
         overflow-x: hidden;
         scroll-behavior: smooth;
-        margin-top: 50px;
-        width: 100% !important;
+        margin-top: unset;
+        padding: unset;
         .card {
           box-sizing: border-box;
           margin-left: 10px;
@@ -1893,21 +1878,14 @@
           margin: 1rem;
         }
         .designation {
-          margin-top: 20px;
-          left: 6.15%;
-          right: 64.87%;
-          top: 82.62%;
-          bottom: 11.15%;
-
           font-family: "Roboto";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
           line-height: 19px;
-          /* identical to box height */
-
           color: #646464;
           margin: 1rem;
+          margin-top: 0;
         }
       }
     }
@@ -1918,6 +1896,13 @@
       align-items: center;
       background: #dfe7f6;
       width: 100% !important;
+
+      .backed-by-section {
+        .heading {
+          margin: unset;
+          height: 50px;
+        }
+      }
 
       .specialist-banner {
         display: none;
