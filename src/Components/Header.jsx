@@ -100,7 +100,7 @@ export default function Header() {
         </a>
       </div>
       <div className={styles["header-menu"]}>
-        <HeaderMenu />
+        <HeaderMenu headerMenu={menu} />
       </div>
       <GenericModal open={open} handleClose={handleClose} option={option} />
     </div>
