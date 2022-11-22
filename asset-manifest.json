@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website2.0/static/css/main.2c943b49.css",
-    "main.js": "/website2.0/static/js/main.3aa6841a.js",
+    "main.css": "/website2.0/static/css/main.a8c3a229.css",
+    "main.js": "/website2.0/static/js/main.3f1b4f7a.js",
     "static/js/787.0b8291f7.chunk.js": "/website2.0/static/js/787.0b8291f7.chunk.js",
     "static/media/candidatebanner.png": "/website2.0/static/media/candidatebanner.d8809cab8ad6c1b95724.png",
     "static/media/bootcampbanner.png": "/website2.0/static/media/bootcampbanner.b13fa3c0e018d6543426.png",
@@ -22,6 +22,7 @@
     "static/media/communityCollegeOfAurora.svg": "/website2.0/static/media/communityCollegeOfAurora.74633eb76b1df6fea69e64745d30d7e7.svg",
     "static/media/sondermind.svg": "/website2.0/static/media/sondermind.6f687c6c4bb4bb9ad2b2a5abb2f123d9.svg",
     "static/media/contactusimage.png": "/website2.0/static/media/contactusimage.571e8fe888f4f26f74c4.png",
+    "static/media/home-banner.png": "/website2.0/static/media/home-banner.c730d71df1d49ac0ac05.png",
     "static/media/gr8insight.svg": "/website2.0/static/media/gr8insight.c5c2c44450f603d7ac350ee826f28326.svg",
     "static/media/Bedrock-logo-purple-1.png": "/website2.0/static/media/Bedrock-logo-purple-1.2032dc5bbffc284905c7.png",
     "static/media/user1.png": "/website2.0/static/media/user1.3bee7cb89356843c15c2.png",
@@ -32,14 +33,13 @@
     "static/media/insidevoices.svg": "/website2.0/static/media/insidevoices.b244fb0aaa1a8561839431995e55d767.svg",
     "static/media/skupos.svg": "/website2.0/static/media/skupos.3c13ddee685439da9f49a1ddb9109b47.svg",
     "static/media/misla.svg": "/website2.0/static/media/misla.42b76d109f129d49dbab450c476e0df4.svg",
-    "static/media/home-banner.png": "/website2.0/static/media/home-banner.1aff5adc811e7a757069.png",
     "index.html": "/website2.0/index.html",
-    "main.2c943b49.css.map": "/website2.0/static/css/main.2c943b49.css.map",
-    "main.3aa6841a.js.map": "/website2.0/static/js/main.3aa6841a.js.map",
+    "main.a8c3a229.css.map": "/website2.0/static/css/main.a8c3a229.css.map",
+    "main.3f1b4f7a.js.map": "/website2.0/static/js/main.3f1b4f7a.js.map",
     "787.0b8291f7.chunk.js.map": "/website2.0/static/js/787.0b8291f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c943b49.css",
-    "static/js/main.3aa6841a.js"
+    "static/css/main.a8c3a229.css",
+    "static/js/main.3f1b4f7a.js"
   ]
 }
