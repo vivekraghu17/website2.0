@@ -55,6 +55,26 @@
 
         opacity: 0.9;
       }
+      .sponsor-text {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        /* or 180% */
+
+        letter-spacing: 0.02em;
+
+        color: #ffffff;
+
+        opacity: 0.9;
+        display: flex;
+        align-items: center;
+        .google-logo {
+          width: 80px;
+          margin: 1rem;
+        }
+      }
       .apply-section {
         display: flex;
         flex-direction: row;
@@ -480,6 +500,43 @@
               padding: 1.5rem;
             }
           }
+        }
+      }
+    }
+    .backed-by-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .heading {
+        height: 80px;
+        left: 298px;
+        top: 2796px;
+
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 80px;
+        /* identical to box height, or 222% */
+
+        text-align: center;
+        letter-spacing: -0.04em;
+
+        color: #111111;
+        margin: 1rem;
+      }
+      .image-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .google-logo {
+          width: 159px;
+          height: 53px;
+        }
+        .techstars-logo {
+          width: 200px;
+          height: 100px;
         }
       }
     }
@@ -1333,7 +1390,7 @@
       }
     }
     .bottom-section {
-      height: 1200px;
+      height: 1400px;
       display: flex;
       flex-direction: column;
       align-items: center;

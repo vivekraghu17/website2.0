@@ -15,7 +15,8 @@ import user3 from "../Assets/user3.png";
 import JoinTodayBanner from "./Reusables/JoinTodayBanner";
 import "../Stylesheets/HomeCarouselStyles.scss";
 import Rating from "@mui/material/Rating";
-
+import googleLogo from "../Assets/google-logo.png";
+import techStarsLogo from "../Assets/techstars.png";
 const optionView = [
   {
     key: "employer",
@@ -164,6 +165,15 @@ export default function Home() {
             Launch your career in tech with no experience in 4-6 months.Get
             access to high paying jobs in the fastest growing industry globally
           </div>
+          <div className={styles["sponsor-text"]}>
+            A{" "}
+            <img
+              src={googleLogo}
+              alt="google"
+              className={styles["google-logo"]}
+            />{" "}
+            Funded Company
+          </div>
           <div className={styles["apply-section"]}>
             <a href="https://app.gritly.us/">
               <Button className={styles["apply-now-btn"]}>Apply Now</Button>
@@ -298,6 +308,21 @@ export default function Home() {
                 );
               })}
             </div>
+          </div>
+        </div>
+        <div className={styles["backed-by-section"]}>
+          <div className={styles["heading"]}>Backed By</div>
+          <div className={styles["image-wrapper"]}>
+            <img
+              src={googleLogo}
+              alt="googleLogo"
+              className={styles["google-logo"]}
+            />
+            <img
+              src={techStarsLogo}
+              alt="techstars"
+              className={styles["techstars-logo"]}
+            />
           </div>
         </div>
       </div>
