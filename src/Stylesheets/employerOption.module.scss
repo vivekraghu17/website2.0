@@ -12,17 +12,14 @@
       .lady-with-laptop {
         width: 400.18px;
         height: 312.18px;
-        left: 39.82px;
-        top: 1114px;
         filter: drop-shadow(0px 67.1144px 109.061px rgba(0, 0, 0, 0.05));
         border-radius: 10px;
       }
     }
     .right-side-information {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
-      width: 50%;
       margin-left: 50px;
       .info-wrapper {
         display: flex;
@@ -44,16 +41,8 @@
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          padding: 0px;
-          gap: 10px;
 
-          width: 290px;
-          height: 103px;
-          left: 625px;
-          top: 1155px;
-          margin-left: 1rem;
           .heading {
-            width: 290px;
             height: 26px;
 
             font-family: "Roboto";

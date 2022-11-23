@@ -9,9 +9,6 @@ export default function JoinTodayBanner() {
     <div className={styles["main-div"]}>
       <div className={styles["left-side-texts"]}>
         <div className={styles["banner-header"]}>Talk to our specialist</div>
-        <div className={styles["banner-sub-texts"]}>
-          Fringilla non proin nec in in lorem amet eget ac. Mauris.
-        </div>
         <Button
           className={styles["join-today-btn"]}
           onClick={() => navigate("/contactus")}

@@ -6,18 +6,18 @@ import DoneIcon from "@mui/icons-material/Done";
 const studentInformation = [
   {
     key: "1",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+    heading: "Build and launch scalable programs",
+    body: "Gritly’s next-gen LMS is a platform that enables education providers to quickly build and launch scalable, role-specific, technology training programs.",
   },
   {
     key: "2",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+    heading: "Increase enrollment",
+    body: "Gritly’s platform provides you with access to candidates who are eager to upskill and find their next dream job",
   },
   {
     key: "3",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+    heading: "Improve placement rates",
+    body: "By partnering with hiring managers at some of the most exciting tech companies, Gritly can help more of your candidates get hired faster.",
   },
 ];
 export default function BootcampOption() {

@@ -15,16 +15,12 @@
     justify-content: space-around;
 
     .banner-header {
-      height: 43px;
-      left: 52px;
-      top: 49px;
-
       font-family: "Montserrat";
       font-style: normal;
       font-weight: 800;
-      font-size: 36px;
+      font-size: 47px;
       line-height: 43px;
-      /* identical to box height, or 119% */
+      /* identical to box height, or 91% */
 
       color: #ffffff;
     }
@@ -44,17 +40,18 @@
       color: #ffffff;
     }
     .join-today-btn {
+      width: 222px;
+      height: 50px;
+
       background: #ffffff;
       /* 3 */
 
       box-shadow: 0px 67.1144px 109.061px rgba(0, 0, 0, 0.05);
       border-radius: 5px;
-      width: 222px;
-      height: 50px;
       font-family: "Roboto";
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 20px;
       line-height: 14px;
       /* identical to box height, or 70% */
 

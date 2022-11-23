@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Assets/gritly.png";
+import Logo from "../Assets/gritly.svg";
 import styles from "../Stylesheets/header.module.scss";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
@@ -8,27 +8,33 @@ import HeaderMenu from "./Reusables/HeaderMenu";
 const headerMenu = [
   {
     key: "home",
-    label: "HOME",
+    label: "Home",
     selected: true,
     route: "/",
   },
   {
     key: "companies",
-    label: "COMPANIES",
+    label: "Companies",
     selected: false,
     route: "/employer",
   },
   {
     key: "bootcamps",
-    label: "BOOTCAMPS",
+    label: "Bootcamp",
     selected: false,
     route: "/bootcamp",
   },
   {
     key: "candidate",
-    label: "CANDIDATE",
+    label: "Candidate",
     selected: false,
     route: "/candidate",
+  },
+  {
+    key: "contact",
+    label: "Contact",
+    selected: false,
+    route: "/contactus",
   },
 ];
 
@@ -95,7 +101,7 @@ export default function Header() {
         </Button>
         <a href="https://app.gritly.us">
           <Button className={styles["register-btn"]} variant="outlined">
-            Apply Now
+            Signup
           </Button>
         </a>
       </div>

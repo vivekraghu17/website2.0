@@ -5,18 +5,18 @@ import DoneIcon from "@mui/icons-material/Done";
 const studentInformation = [
   {
     key: "1",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+    heading: "Get hired faster",
+    body: "Gritly’s platform helps you to identify your next career move, connect with the right upskilling program, and get hired after completion.",
   },
   {
     key: "2",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+    heading: "Earn more money",
+    body: "Connect with programs that teach you how to get a job in your dream industry, and find companies that need to hire new employees with your set of skills and experience.",
   },
   {
     key: "3",
-    heading: "Tempor egestas augue",
-    body: "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+    heading: "Get help upskilling",
+    body: "Gritly helps you identify your next career path and connect you with the right upskilling program to make your next career move.",
   },
 ];
 export default function StudentOption() {

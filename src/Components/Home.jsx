@@ -6,7 +6,7 @@ import StudentOption from "./Reusables/StudentOption";
 import { useNavigate } from "react-router-dom";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import homeBanner from "../Assets/banner.png";
+import homeBanner from "../Assets/Homepage/banner-right.svg";
 import EmployerOption from "./Reusables/EmployerOption";
 import BootcampOption from "./Reusables/BootcampOption";
 import user1 from "../Assets/user1.png";
