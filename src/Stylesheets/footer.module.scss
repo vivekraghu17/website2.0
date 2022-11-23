@@ -1,50 +1,190 @@
 .main-div {
   display: flex;
   flex-direction: column;
-  background-color: #0e1555;
-
-  .logo-section {
-    display: flex;
-    justify-content: center;
-    .logo {
-      width: 150px;
-      cursor: pointer;
-    }
-  }
-  .menu-items-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2rem;
-    .item {
-      margin-left: 40px;
-      color: white;
-      cursor: pointer;
-    }
-  }
-  .divider {
-    width: 100%;
-    align-items: center;
-    border-bottom: 1px solid grey;
-  }
-  .copyrights-section {
+  background: #0e1555;
+  .row-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 1rem;
-    .left-side-section {
+    .items {
       color: white;
+      align-items: center;
+      margin-left: 0px;
+      //font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: -0.02em;
+      cursor: pointer;
+      color: #ffffff;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    .row-2 {
+      justify-content: center;
+      color: white;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 130%;
+      /* or 18px */
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.008em;
+
+      color: #ffffff;
+
+      /* Inside auto layout */
+      text-align: center;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
     }
     .social-media-wrapper {
       display: flex;
       flex-direction: row;
+      align-items: center;
+      > img {
+        width: 33px;
+        height: 33px;
+        margin-left: 1rem;
+        cursor: pointer;
+      }
     }
   }
 }
-@media only screen and (max-width: 1180px) {
+@media screen and (max-width: 767px) {
   .main-div {
-    .menu-items-section {
-      display: none;
+    display: flex;
+    flex-direction: row;
+    background: #0e1555;
+    justify-content: space-around;
+    .row-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .gritly-logo {
+        width: 80px;
+        height: 40px;
+      }
+      .items {
+        color: white;
+        align-items: center;
+        margin-left: 0px;
+        //font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        cursor: pointer;
+        color: #ffffff;
+        margin-top: 10px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .row-2 {
+        justify-content: center;
+        color: white;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 130%;
+        /* or 18px */
+        letter-spacing: 0.008em;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+        text-align: center;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .social-media-wrapper {
+        display: flex;
+        flex-direction: row;
+        //position: absolute;
+        left: 80%;
+        > img {
+          width: 21px;
+          height: 21px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 767px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    background: #0e1555;
+    width: 100% !important;
+    .row-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .items {
+        color: white;
+        align-items: center;
+        margin-left: 0px;
+        //font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.02em;
+        cursor: pointer;
+        color: #ffffff;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .row-2 {
+        justify-content: center;
+        color: white;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 130%;
+        /* or 18px */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.008em;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+        text-align: center;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .social-media-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        > img {
+          width: 33px;
+          height: 33px;
+          margin-left: 1rem;
+          cursor: pointer;
+        }
+      }
     }
   }
 }
