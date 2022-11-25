@@ -1,10 +1,13 @@
 .main-div {
+  position: relative;
+  top: 69px;
   .home-banner {
-    background-image: url("../Assets/Homepage/background-blue.svg");
+    background: #0F175B;
     height: 695px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     .header-texts {
       display: flex;
@@ -1498,7 +1501,7 @@
 @media only screen and (max-width: 767px) {
   .main-div {
     .home-banner {
-      background-image: url("../Assets/home-banner.png");
+      background: #0F175B;
       height: 780px;
       width: 100% !important;
       display: flex;
